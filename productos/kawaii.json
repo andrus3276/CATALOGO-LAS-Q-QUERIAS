@@ -1,0 +1,65 @@
+[
+    {
+        "id": 3,
+        "name": "Manta Kawaii",
+        "price": 20000,
+        "category": "kawaii",
+        "description": "Manta suave y abrigadora con diseño kawaii.",
+        "image": "imagenes/kawaii/IMG_20230911_162817_941.jpg",
+        "images": ["../imagenes/IMG_20230911_162817_941.jpg"]
+    },
+    {
+        "id": 4,
+        "name": "joyero kawaii",
+        "price": 15000,
+        "category": "kawaii",
+        "description": "pequeño joyero con diseño kawaii en porcelana.",
+        "image": "imagenes/kawaii/2023112022511944.jpg",
+        "images": ["imagenes/kawaii/2023112023164815.jpg","imagenes/kawaii/2023112023311164.jpg","imagenes/kawaii/2023112023464722.jpg","imagenes/kawaii/2023112023484760.jpg"]
+    },
+    {
+        "id": 5,
+        "name": "lampara kawaii",
+        "price": 15000,
+        "category": "kawaii",
+        "description": "pequeña lampara kawaii.",
+        "image": "imagenes/kawaii/2023112311591288.jpg",
+        "images": ["../imagenes/cojin_kawaii.jpg"]
+    },
+    {
+        "id": 6,
+        "name": "diario kawaii",
+        "price": 15000,
+        "category": "kawaii",
+        "description": "diario en varios motivos kawaii.",
+        "image": "imagenes/kawaii/IMG_20230808_092746_221.jpg",
+        "images": ["../imagenes/cojin_kawaii.jpg"]
+    },
+    {
+        "id": 7,
+        "name": "morral astronauta",
+        "price": 15000,
+        "category": "kawaii",
+        "description": "morral escolar con diseño de astronauta.",
+        "image": "imagenes/kawaii/2023121323084308.jpg",
+        "images": ["../imagenes/cojin_kawaii.jpg"]
+    },
+    {
+        "id": 8,
+        "name": "cuaderno kawaii",
+        "price": 15000,
+        "category": "kawaii",
+        "description": "cuaderno con diseño de astronauta.",
+        "image": "imagenes/kawaii/IMG_20230807_160607_088.jpg",
+        "images": ["../imagenes/cojin_kawaii.jpg"]
+    },
+    {
+        "id": 9,
+        "name": "portacarnet",
+        "price": 15000,
+        "category": "kawaii",
+        "description": "porta carnet kawaii con correa ajustable",
+        "image": "imagenes/kawaii/IMG_20230903_151606_569.jpg",
+        "images": ["../imagenes/cojin_kawaii.jpg"]
+    }
+]

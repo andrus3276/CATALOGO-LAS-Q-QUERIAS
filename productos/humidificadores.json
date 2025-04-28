@@ -1,0 +1,20 @@
+[
+    {
+        "id": 7,
+        "name": "Humidificador Portátil",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "Humidificador portátil para mantener el ambiente fresco.",
+        "image": "../imagenes/humidificador_portatil.jpg",
+        "images": ["../imagenes/humidificador_portatil.jpg"]
+    },
+    {
+        "id": 8,
+        "name": "Humidificador Grande",
+        "price": 50000,
+        "category": "humidificadores",
+        "description": "Humidificador de gran capacidad para espacios amplios.",
+        "image": "../imagenes/humidificador_grande.jpg",
+        "images": ["../imagenes/humidificador_grande.jpg"]
+    }
+]

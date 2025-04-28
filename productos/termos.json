@@ -1,0 +1,142 @@
+[
+   {
+      "id": 5,
+      "name": "termo vaso de acero 1200ml",
+      "price": 120000,
+      "category": "termos",
+      "description": "hermoso termo de acero 1200ml con pitillo y boquilla bebida caliente o fria.",
+      "image": "../imagenes/thermos/1740631393120.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {
+      "id": 6,
+      "name": "termo vaso 500ml ",
+      "price": 45000,
+      "category": "termos",
+      "description": "hermoso termo con tapa seguridad pitillo removible y correa ajustable para bebida fria.",
+      "image": "../imagenes/thermos/1744423359239.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {
+      "id": 7,
+      "name": "termo vaso 500ml",
+      "price": 45000,
+      "category": "termos",
+      "description": "hermoso termo con tapa seguridad boquilla removible  para bebida fria.",
+      "image": "imagenes/thermos/1744423375200.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {
+      "id": 8,
+      "name": "termo vaso 900ml",
+      "price": 45000,
+      "category": "termos",
+      "description": "hermoso termo cubo con pitillo y manija para bebida fria ",
+      "image": "imagenes/thermos/1744423392348.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {
+      "id": 9,
+      "name": "termo vaso 500ml",        
+      "price": 80000,                  
+      "category": "termos",
+      "description": "hermoso termo sanrio con tapa seguridad boquilla removible  para bebida fria.",
+      "image": "imagenes/thermos/1744423406559.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {
+      "id": 10,
+      "name": "termo vaso 500ml",
+      "price": 38000,
+      "category": "termos",
+      "description": "hermoso termo personajes para bebida fria.",
+      "image": "imagenes/thermos/1744423418930.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {
+      "id": 11,    
+      "name": "termo vaso 600ml",
+      "price": 35000,
+      "category": "termos",
+      "description": "hermoso termo con tapa seguridad boquilla removible  para bebida fria.",
+      "image": "imagenes/thermos/IMG-20250306-WA0001.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {
+      "id": 12,
+      "name": "termo vaso 750ml",
+      "price": 48000,
+      "category": "termos",
+      "description": "hermoso termo con tapa seguridad boquilla removible  para bebida fria.",
+      "image": "imagenes/thermos/IMG-20250306-WA0002.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {  
+      "id": 13,    
+      "name": "termo vaso 350ml",
+      "price": 45000,
+      "category": "termos",
+      "description": "hermoso termo con tapa seguridad boquilla removible  para bebida fria.",
+      "image": "imagenes/thermos/IMG-20250306-WA0004.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {
+      "id": 14,    
+      "name": "termo vaso 500ml",
+      "price": 45000,
+      "category": "termos",
+      "description": "hermoso termo con tapa seguridad boquilla removible correa ajustable  para bebida fria.",
+      "image": "imagenes/thermos/IMG-20250306-WA0005.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {
+      "id": 15,                                    
+      "name": "termo vaso 650ml",           
+      "price": 47000,                  
+      "category": "termos",
+      "description": "hermoso termo motivacional con tapa seguridad boquilla removible correa ajustable  para bebida fria.",
+      "image": "imagenes/thermos/IMG-20250315-WA0099.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {
+      "id": 16,
+      "name": "termo vaso 900ml",
+      "price": 120000,
+      "category": "termos",
+      "description": "hermoso termo con tapa seguridad boquilla removible   para bebida fria o caliente  .",
+      "image": "imagenes/thermos/IMG-20250317-WA0051.jpg",
+      "images": ["imagenes/thermos/IMG-20250317-WA0062.jpg","imagenes/thermos/IMG-20250317-WA0061.jpg "]
+   },
+   {
+      "id": 17,
+      "name": "termo vaso 1200ml",
+      "price": 120000,
+      "category": "termos",
+      "description": "hermoso termo  stanley replica 1.1 con pitillo  para bebida fria o caliente  .",
+      "image": "imagenes/thermos/IMG-20250317-WA0088(1).jpg",
+      "images": ["imagenes/thermos/IMG-20250317-WA0062.jpg"]
+   },
+   {
+      "id": 18,
+      "name": "termo vaso 1200ml",
+      "price": 130000,
+      "category": "termos",
+      "description": "hermoso termo stanley replica 1.1 con pitillo para bebida fria o caliente.",
+      "image": "imagenes/thermos/IMG-20250327-WA0009.jpg",
+      "images": ["imagenes/thermos/IMG-20250401-WA0142.jpg", "imagenes/thermos/IMG-20250327-WA0009.jpg"]
+   },
+   {
+      "id": 19,
+      "name": "termo botella 500ml",            
+      "price": 68000,                  
+      "category": "termos",
+      "description": "hermoso termo botella motivos varios para bebida fria o caliente.",
+      "image": "imagenes/thermos/IMG-20250405-WA0004.jpg",
+      "images": [
+         "imagenes/thermos/IMG-20250405-WA0005.jpg",
+         "imagenes/thermos/IMG-20250405-WA0006.jpg",
+         "imagenes/thermos/IMG-20250405-WA0009.jpg",
+         "imagenes/thermos/IMG-20250405-WA0010.jpg"
+      ]
+   }
+]

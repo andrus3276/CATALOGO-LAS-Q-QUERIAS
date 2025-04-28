@@ -1,0 +1,194 @@
+// app.js - Lógica del carrito
+
+const productList = document.getElementById("product-list");
+const categoryMenu = document.getElementById("category-menu");
+const cartBtn = document.getElementById("cart-btn");
+const cartCount = document.getElementById("cart-count");
+const cartItems = document.getElementById("cart-items");
+const sendOrder = document.getElementById("send-order");
+const modalImage = document.getElementById("modal-image");
+
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+// Cargar categorías dinámicamente
+async function loadCategories() {
+    try {
+        const response = await fetch("productos/todos.json"); // Carga todos los productos
+        const products = await response.json();
+
+        // Obtener categorías únicas y ordenarlas alfabéticamente
+        const categories = [...new Set(products.map(product => product.category))].sort();
+
+        // Agregar categorías al menú
+        let categoryHtml = `<li><a class="dropdown-item" href="#" onclick="filterProducts('todos')">Todos los Productos</a></li>`;
+        categories.forEach(category => {
+            categoryHtml += `<li><a class="dropdown-item" href="#" onclick="filterProducts('${category}')">${capitalize(category)}</a></li>`;
+        });
+        document.getElementById("category-menu").innerHTML = categoryHtml;
+
+        // Cargar subcategorías de Fechas Especiales
+        loadSpecialDates();
+    } catch (error) {
+        console.error("Error cargando categorías:", error);
+    }
+}
+
+// Cargar subcategorías de Fechas Especiales
+async function loadSpecialDates() {
+    try {
+        const response = await fetch("productos/fechas-especiales.json"); // Carga las subcategorías de fechas especiales
+        const specialDates = await response.json();
+
+        // Agregar subcategorías al menú de Fechas Especiales
+        let specialDatesHtml = "";
+        specialDates.forEach(date => {
+            specialDatesHtml += `<li><a class="dropdown-item" href="#" onclick="filterProducts('${date.id}')">${date.name}</a></li>`;
+        });
+        document.getElementById("special-dates-menu").innerHTML = specialDatesHtml;
+    } catch (error) {
+        console.error("Error cargando fechas especiales:", error);
+    }
+}
+
+// Capitalizar la primera letra de una palabra
+function capitalize(word) {
+    return word.charAt(0).toUpperCase() + word.slice(1);
+}
+
+// Filtrar productos por categoría o subcategoría
+function filterProducts(category) {
+    const categoryTitle = document.getElementById("category-title");
+    categoryTitle.textContent = category === "todos" ? "Todos los Productos" : capitalize(category.replace("-", " "));
+
+    // Cargar productos filtrados
+    loadProducts(category);
+}
+
+// Cargar productos desde JSON
+async function loadProducts(category = "todos") {
+    try {
+        const fileName = category === "todos" ? "todos.json" : `${category}.json`; // Determina el archivo JSON
+        const response = await fetch(`productos/${fileName}`);
+        const products = await response.json();
+
+        // Mostrar el número total de productos
+        const productCountElement = document.getElementById("product-count");
+        productCountElement.textContent = `Total de productos: ${products.length}`;
+
+        renderProducts(products);
+    } catch (error) {
+        console.error("Error cargando productos:", error);
+        productList.innerHTML = "<p class='text-center text-danger'>Error al cargar los productos.</p>";
+    }
+}
+
+// Renderizar productos en la pantalla
+function renderProducts(products) {
+    let html = "";
+    products.forEach(product => {
+        // Verificar si el producto tiene imágenes adicionales
+        const thumbnails = product.images && product.images.length > 1
+            ? `
+                <div class="thumbnails mt-2">
+                    ${product.images.map(image => `
+                        <img src="${image.trim()}" class="thumbnail-img" alt="${product.name}" loading="lazy" onclick="openImageModal('${image.trim()}')">
+                    `).join("")}
+                </div>
+            `
+            : "";
+
+        html += `
+            <div class="col-md-3 mb-4">
+                <div class="card shadow-lg">
+                    <img src="${product.image.trim()}" class="card-img-top" alt="${product.name}" loading="lazy" onclick="openImageModal('${product.image.trim()}')">
+                    ${thumbnails}
+                    <div class="card-body text-center">
+                        <h5 class="card-title">${product.name}</h5>
+                        <p class="card-text">${product.description}</p>
+                        <p class="card-text fw-bold">categoría: ${product.category}</p> 
+                        <p class="card-text fw-bold">$${product.price.toLocaleString()}</p>
+                        <button class="btn btn-success" onclick="addToCart(${product.id}, '${product.name}', ${product.price})">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+    productList.innerHTML = html;
+}
+
+// Función para abrir el modal con la imagen ampliada
+function openImageModal(imageUrl) {
+    modalImage.src = imageUrl; // Actualizamos la imagen del modal
+    const modal = new bootstrap.Modal(document.getElementById("imageModal"));
+    modal.show(); // Mostramos el modal
+}
+
+// Agregar al carrito con validación para evitar duplicados
+//aqui se agrega el producto al carrito y se guarda en el localStorage
+function addToCart(id, name, price) {
+    const existingItem = cart.find(item => item.id === id);
+    if (existingItem) {
+        const confirmAdd = confirm("Este producto ya está en el carrito. ¿Deseas agregarlo nuevamente?");
+        if (!confirmAdd) {
+            return;
+        }
+    }
+    cart.push({ id, name, price });
+    saveCart();
+    updateCart();
+    console.log("Producto agregado al carrito:", { id, name, price });
+}
+
+// Guardar carrito en localStorage
+function saveCart() {
+    localStorage.setItem("cart", JSON.stringify(cart));
+    console.log("Carrito guardado en localStorage:", cart);
+}
+
+// Actualizar carrito (modal e icono)
+function updateCart() {
+    cartCount.textContent = cart.length;
+    cartItems.innerHTML = cart.length === 0
+        ? "<p class='text-muted'>Tu carrito está vacío. Agrega productos para comenzar.</p>"
+        : cart.map((item, index) => `
+            <p>${item.name} - $${item.price.toLocaleString()} 
+                <button class="btn btn-sm btn-danger" onclick="removeFromCart(${index})">Eliminar</button>
+            </p>`).join(" ");
+}
+
+// Eliminar producto del carrito
+function removeFromCart(index) {
+    cart.splice(index, 1);
+    saveCart();
+    updateCart();
+}
+
+// Enviar pedido por WhatsApp con manejo de errores
+function sendToWhatsApp() {
+    if (cart.length === 0) {
+        alert("Tu carrito está vacío.");
+        return;
+    }
+
+    const message = cart.map(item => `${item.name} - $${item.price.toLocaleString()}`).join("\n");
+    const total = cart.reduce((acc, item) => acc + item.price, 0);
+    const phone = "573144918810";
+    const url = `https://wa.me/${phone}?text=¡Hola! Quiero hacer un pedido:%0A${message}%0A%0ATotal: $${total.toLocaleString()}`;
+
+    const newWindow = window.open(url, "_blank");
+    if (!newWindow || newWindow.closed || typeof newWindow.closed === "undefined") {
+        alert("No se pudo abrir WhatsApp. Por favor, revisa tu configuración del navegador.");
+    }
+}
+
+// Event listeners
+cartBtn.addEventListener("click", () => {
+    new bootstrap.Modal(document.getElementById("cartModal")).show();
+});
+sendOrder.addEventListener("click", sendToWhatsApp);
+
+// Inicializar la página
+loadCategories();
+loadProducts();
+updateCart();
+

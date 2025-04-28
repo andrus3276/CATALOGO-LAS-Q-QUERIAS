@@ -1,0 +1,20 @@
+[
+    {
+        "id": 9,
+        "name": "Cargador Inalámbrico",
+        "price": 35000,
+        "category": "tecnologia",
+        "description": "Cargador inalámbrico rápido compatible con múltiples dispositivos.",
+        "image": "../imagenes/cargador_inalambrico.jpg",
+        "images": ["../imagenes/cargador_inalambrico.jpg"]
+    },
+    {
+        "id": 10,
+        "name": "Audífonos Bluetooth",
+        "price": 45000,
+        "category": "tecnologia",
+        "description": "Audífonos Bluetooth con cancelación de ruido.",
+        "image": "../imagenes/audifonos_bluetooth.jpg",
+        "images": ["../imagenes/audifonos_bluetooth.jpg"]
+    }
+]

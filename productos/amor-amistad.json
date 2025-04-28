@@ -1,0 +1,21 @@
+[
+    {
+        "id": 22,
+        "name": "Taza de Corazón",
+        "price": 25000,
+        "category": "amor-amistad",
+        "description": "Taza con diseño de corazón ideal para regalar.",
+        "image": "imagenes/amor-amistad/taza_corazon.jpg",
+        "images": ["imagenes/amor-amistad/taza_corazon.jpg"]
+    },
+    {
+        "id": 23,
+        "name": "Peluches Pareja",
+        "price": 60000,
+        "category": "amor-amistad",
+        "description": "Set de peluches de pareja para San Valentín.",
+        "image": "imagenes/amor-amistad/peluches_pareja.jpg",
+        "images": ["imagenes/amor-amistad/peluches_pareja.jpg"]
+    }
+]
+

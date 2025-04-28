@@ -1,0 +1,215 @@
+[
+    {
+        "id": 1,
+        "name": "sanduchera multifuncional",
+        "price": 160000,
+        "category": "hogar",
+        "description": "sanduchera multi molde intercambiables.",
+        "image": "imagenes/hogar/IMG-20250306-WA0034.jpg"
+        
+    },
+    {
+        "id": 2,
+        "name": "Set utencilios 19 piezas",
+        "price": 95000,
+        "category": "hogar",
+        "description": "set utensilios para cocina siliconado",
+        "image": "imagenes/hogar/IMG-20250317-WA0522.jpg",
+        "images": ["imagenes/hogar/IMG-20250317-WA0522(1).jpg","imagenes/hogar/IMG-20250317-WA0524.jpg","imagenes/hogar/IMG-20250322-WA0063.jpg "]
+        
+    },
+    {
+        "id": 3,
+        "name": "armario portatil",
+        "price": 95000,
+        "category": "hogar",
+        "description": "set utensilios para cocina siliconado",
+        "image": "imagenes/hogar/IMG-20250318-WA0245.jpg",
+        "images": ["imagenes/hogar/IMG-20250318-WA0245.jpg","imagenes/hogar/IMG-20250318-WA0250.jpg"]
+    },
+    {
+        "id": 4,
+        "name": "escurridor de platos",
+        "price": 95000,
+        "category": "hogar",
+        "description": "practico escurridor de platos",
+        "image": "imagenes/hogar/IMG-20250319-WA0019.jpg",
+        "images": ["imagenes/hogar/IMG-20250319-WA0022(1).jpg","imagenes/hogar/IMG-20250319-WA0019.jpg"]
+    },
+    {
+        "id": 5,
+        "name": "organizador zapatos",
+        "price": 95000,
+        "category": "hogar",
+        "description": "practico organizador de zapatos",
+        "image": "imagenes/hogar/IMG-20250319-WA0131.jpg",
+        "images": ["imagenes/hogar/IMG-20250319-WA0135(1).jpg ","imagenes/hogar/IMG-20250319-WA0131.jpg"]
+    },
+
+    {
+        "id": 6,
+        "name": "cubiertero",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "elegante cubiertero enforma de huevo practico en diferentes colores  ",
+        "image": "imagenes/hogar/IMG-20250321-WA0023.jpg",
+        "images": ["imagenes/hogar/IMG-20250321-WA0024.jpg ","imagenes/hogar/IMG-20250321-WA0025.jpg ","imagenes/hogar/IMG-20250321-WA0026.jpg " ]
+    },
+    {
+        "id": 7,
+        "name": "zapatera",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "zapatera de 6 niveles modular practico y elegante  ",
+        "image": "imagenes/hogar/IMG-20250321-WA0030.jpg",
+        "images": ["imagenes/hogar/IMG-20250321-WA0033.jpg ","imagenes/hogar/IMG-20250321-WA0030.jpg " ]
+    },
+    {
+        "id": 8,
+        "name": "mini waflera",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "mini waflera electrica en forma de corazon",
+        "image": "imagenes/hogar/IMG-20250325-WA0178.jpg",
+        "images": ["imagenes/hogar/IMG-20250321-WA0024.jpg " ]
+    },
+    {
+        "id": 9,
+        "name": "organizador",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "organizador multifuncional",
+        "image": "imagenes/hogar/IMG-20250327-WA0003.jpg",
+        "images": ["imagenes/hogar/IMG-20250327-WA0005.jpg ","imagenes/hogar/IMG-20250327-WA0003.jpg " ]
+    },
+    {
+        "id": 10,
+        "name": "asador",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "asador de mesa ",
+        "image": "imagenes/hogar/IMG-20250328-WA0172.jpg",
+        "images": ["imagenes/hogar/IMG-20250328-WA0174.jpg ","imagenes/hogar/IMG-20250328-WA0178.jpg " ]
+    },
+
+    {
+        "id": 11,
+        "name": "organizador",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "practico organizador multifuncional ",
+        "image": "imagenes/hogar/IMG-20250331-WA0181.jpg",
+        "images": ["imagenes/hogar/IMG-20250331-WA0182.jpg","imagenes/hogar/IMG-20250331-WA0184.jpg " ]
+    },
+    {
+        "id": 12,
+        "name": "dosificador",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "practico dosificador de agua recargable ideal para botellones",
+        "image": "imagenes/hogar/IMG-20250402-WA0047.jpg",
+        "images": ["imagenes/hogar/IMG-20250402-WA0049.jpg","imagenes/hogar/IMG-20250402-WA0047.jpg " ]
+    },
+    {
+        "id": 13,
+        "name": "set de cuchillos",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "set de cuchillos 8 piezas con un diseño elegante ",
+        "image": "imagenes/hogar/IMG-20250403-WA0023.jpg",
+        "images": ["imagenes/hogar/IMG-20250403-WA0024.jpg ","imagenes/hogar/IMG-20250403-WA0023.jpg " ]
+    },
+    {
+        "id": 14,
+        "name": "cubiertero",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "elegante cubiertero enforma de huevo practico en diferentes colores  ",
+        "image": "imagenes/hogar/IMG-20250321-WA0023.jpg",
+        "images": ["imagenes/hogar/IMG-20250321-WA0024.jpg ","imagenes/hogar/IMG-20250321-WA0025.jpg ","imagenes/hogar/IMG-20250321-WA0026.jpg " ]
+    },
+    {
+        "id": 15,
+        "name": "ayudante de cocina",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "practico picador multifuncional para faiclitar la preparacion de comida",
+        "image": "imagenes/hogar/IMG-20250403-WA0031.jpg",
+        "images": ["imagenes/hogar/IMG-20250403-WA0033.jpg","imagenes/hogar/IMG-20250403-WA0039.jpg" ]
+    },
+    {
+        "id": 16,
+        "name": "afilador de cuchillos",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "util afilador de cuchillos ",
+        "image": "imagenes/hogar/IMG-20250403-WA0181.jpg",
+        "images": ["imagenes/IMG-20250403-WA0178.jpg ","imagenes/hogar/IMG-20250403-WA0181.jpg " ]
+    },
+    {
+        "id": 17,
+        "name": "escurridor de platos",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "escurridor de platos pequeño versatil metalico ",
+        "image": "imagenes/hogar/IMG-20250404-WA0057.jpg",
+        "images": ["imagenes/hogar/IMG-20250404-WA0057.jpg ","imagenes/hogar/IMG-20250404-WA0053.jpg"]    
+    },
+    {
+        "id": 18,        
+        "name": "escurridor de platos",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "escurridor platos metalico con tapa varios compartimientos ",
+        "image": "imagenes/hogar/IMG-20250408-WA0031.jpg",
+        "images": ["imagenes/hogar/IMG-20250408-WA0037.jpg ","imagenes/hogar/IMG-20250408-WA0033.jpg " ]
+    },
+    {
+        "id": 19,        
+        "name": "organizador de zapatos",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "organizador de zapatos metalico 9 niveles con cubierta de tela medidas 160x60x30cm", 
+        "image": "imagenes/hogar/IMG-20250408-WA0226.jpg",
+        "images": ["imagenes/hogar/IMG-20250408-WA0228.jpg ","imagenes/hogar/IMG-20250408-WA0226.jpg " ]
+    },
+    {
+        "id": 20,        
+        "name": "organizador de baño",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "organizador de baño y lavadora metalico 3 niveles en acero de alta calidad ",
+        "image": "imagenes/hogar/IMG-20250410-WA0182.jpg",                
+        "images": ["imagenes/hogar/IMG-20250410-WA0183.jpg","imagenes/hogar/IMG-20250410-WA0182.jpg " ]        
+    },
+    {
+        "id": 21,        
+        "name": "fabricador de donas",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "fabricador de donas electrico antiadherente ",
+        "image": "imagenes/hogar/IMG-20250411-WA0020.jpg",                
+        "images": ["imagenes/hogar/IMG-20250411-WA0023.jpg", "imagenes/hogar/IMG-20250411-WA0025.jpg " ]        
+    },  
+    {
+        "id": 22,        
+        "name": "organizador ducha",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "organizador esquinero ducha 4 niveles ",
+        "image": "imagenes/hogar/IMG-20250401-WA0169.jpg",                
+        "images": ["imagenes/hogar/IMG-20250411-WA0023.jpg" ]        
+    },
+    {
+        "id": 23,        
+        "name": "cepillo secador de pelo",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "practico cepillo secador de pelo color aguacate  ",
+        "image": "imagenes/hogar/IMG-20250404-WA0048.jpg",                
+        "images": ["imagenes/hogar/IMG-20250404-WA0049.jpg","imagenes/hogar/IMG-20250404-WA0051.jpg" ]        
+    }
+    
+   
+
+]

@@ -1,0 +1,487 @@
+[   
+     {
+      "id": 5,
+      "name": "termo vaso de acero 1200ml",
+      "price": 120000,
+      "category": "termos",
+      "description": "hermoso termo de acero 1200ml con pitillo y boquilla bebida caliente o fria.",
+      "image": "../imagenes/thermos/1740631393120.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {
+      "id": 6,
+      "name": "termo vaso 500ml ",
+      "price": 45000,
+      "category": "termos",
+      "description": "hermoso termo con tapa seguridad pitillo removible y correa ajustable para bebida fria.",
+      "image": "../imagenes/thermos/1744423359239.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {
+      "id": 7,
+      "name": "termo vaso 500ml",
+      "price": 45000,
+      "category": "termos",
+      "description": "hermoso termo con tapa seguridad boquilla removible  para bebida fria.",
+      "image": "imagenes/thermos/1744423375200.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {
+      "id": 8,
+      "name": "termo vaso 900ml",
+      "price": 45000,
+      "category": "termos",
+      "description": "hermoso termo cubo con pitillo y manija para bebida fria ",
+      "image": "imagenes/thermos/1744423392348.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {
+      "id": 9,
+      "name": "termo vaso 500ml",        
+      "price": 80000,                  
+      "category": "termos",
+      "description": "hermoso termo sanrio con tapa seguridad boquilla removible  para bebida fria.",
+      "image": "imagenes/thermos/1744423406559.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {
+      "id": 10,
+      "name": "termo vaso 500ml",
+      "price": 38000,
+      "category": "termos",
+      "description": "hermoso termo personajes para bebida fria.",
+      "image": "imagenes/thermos/1744423418930.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {
+      "id": 11,    
+      "name": "termo vaso 600ml",
+      "price": 35000,
+      "category": "termos",
+      "description": "hermoso termo con tapa seguridad boquilla removible  para bebida fria.",
+      "image": "imagenes/thermos/IMG-20250306-WA0001.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {
+      "id": 12,
+      "name": "termo vaso 750ml",
+      "price": 48000,
+      "category": "termos",
+      "description": "hermoso termo con tapa seguridad boquilla removible  para bebida fria.",
+      "image": "imagenes/thermos/IMG-20250306-WA0002.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {  
+      "id": 13,    
+      "name": "termo vaso 350ml",
+      "price": 45000,
+      "category": "termos",
+      "description": "hermoso termo con tapa seguridad boquilla removible  para bebida fria.",
+      "image": "imagenes/thermos/IMG-20250306-WA0004.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {
+      "id": 14,    
+      "name": "termo vaso 500ml",
+      "price": 45000,
+      "category": "termos",
+      "description": "hermoso termo con tapa seguridad boquilla removible correa ajustable  para bebida fria.",
+      "image": "imagenes/thermos/IMG-20250306-WA0005.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {
+      "id": 15,                                    
+      "name": "termo vaso 650ml",           
+      "price": 47000,                  
+      "category": "termos",
+      "description": "hermoso termo motivacional con tapa seguridad boquilla removible correa ajustable  para bebida fria.",
+      "image": "imagenes/thermos/IMG-20250315-WA0099.jpg",
+      "images": ["imagenes/thermos/1744301899142.jpg"]
+   },
+   {
+      "id": 16,
+      "name": "termo vaso 900ml",
+      "price": 120000,
+      "category": "termos",
+      "description": "hermoso termo con tapa seguridad boquilla removible   para bebida fria o caliente  .",
+      "image": "imagenes/thermos/IMG-20250317-WA0051.jpg",
+      "images": ["imagenes/thermos/IMG-20250317-WA0062.jpg","imagenes/thermos/IMG-20250317-WA0061.jpg "]
+   },
+   {
+      "id": 17,
+      "name": "termo vaso 1200ml",
+      "price": 120000,
+      "category": "termos",
+      "description": "hermoso termo  stanley replica 1.1 con pitillo  para bebida fria o caliente  .",
+      "image": "imagenes/thermos/IMG-20250317-WA0088(1).jpg",
+      "images": ["imagenes/thermos/IMG-20250317-WA0062.jpg"]
+   },
+   {
+      "id": 18,
+      "name": "termo vaso 1200ml",
+      "price": 130000,
+      "category": "termos",
+      "description": "hermoso termo stanley replica 1.1 con pitillo para bebida fria o caliente.",
+      "image": "imagenes/thermos/IMG-20250327-WA0009.jpg",
+      "images": ["imagenes/thermos/IMG-20250401-WA0142.jpg", "imagenes/thermos/IMG-20250327-WA0009.jpg"]
+   },
+   {
+      "id": 19,
+      "name": "termo botella 500ml",            
+      "price": 68000,                  
+      "category": "termos",
+      "description": "hermoso termo botella motivos varios para bebida fria o caliente.",
+      "image": "imagenes/thermos/IMG-20250405-WA0004.jpg",
+      "images": [
+         "imagenes/thermos/IMG-20250405-WA0005.jpg",
+         "imagenes/thermos/IMG-20250405-WA0006.jpg",
+         "imagenes/thermos/IMG-20250405-WA0009.jpg",
+         "imagenes/thermos/IMG-20250405-WA0010.jpg"
+      ]
+   },
+    {
+        "id": 1,
+        "name": "sanduchera multifuncional",
+        "price": 160000,
+        "category": "hogar",
+        "description": "sanduchera multi molde intercambiables.",
+        "image": "imagenes/hogar/IMG-20250306-WA0034.jpg"
+        
+    },
+    {
+        "id": 2,
+        "name": "Set utencilios 19 piezas",
+        "price": 95000,
+        "category": "hogar",
+        "description": "set utensilios para cocina siliconado",
+        "image": "imagenes/hogar/IMG-20250317-WA0522.jpg",
+        "images": ["imagenes/hogar/IMG-20250317-WA0522(1).jpg","imagenes/hogar/IMG-20250317-WA0524.jpg","imagenes/hogar/IMG-20250322-WA0063.jpg "]
+        
+    },
+    {
+        "id": 3,
+        "name": "armario portatil",
+        "price": 95000,
+        "category": "hogar",
+        "description": "set utensilios para cocina siliconado",
+        "image": "imagenes/hogar/IMG-20250318-WA0245.jpg",
+        "images": ["imagenes/hogar/IMG-20250318-WA0245.jpg","imagenes/hogar/IMG-20250318-WA0250.jpg"]
+    },
+    {
+        "id": 4,
+        "name": "escurridor de platos",
+        "price": 95000,
+        "category": "hogar",
+        "description": "practico escurridor de platos",
+        "image": "imagenes/hogar/IMG-20250319-WA0019.jpg",
+        "images": ["imagenes/hogar/IMG-20250319-WA0022(1).jpg","imagenes/hogar/IMG-20250319-WA0019.jpg"]
+    },
+    {
+        "id": 5,
+        "name": "organizador zapatos",
+        "price": 95000,
+        "category": "hogar",
+        "description": "practico organizador de zapatos",
+        "image": "imagenes/hogar/IMG-20250319-WA0131.jpg",
+        "images": ["imagenes/hogar/IMG-20250319-WA0135(1).jpg ","imagenes/hogar/IMG-20250319-WA0131.jpg"]
+    },
+
+    {
+        "id": 6,
+        "name": "cubiertero",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "elegante cubiertero enforma de huevo practico en diferentes colores  ",
+        "image": "imagenes/hogar/IMG-20250321-WA0023.jpg",
+        "images": ["imagenes/hogar/IMG-20250321-WA0024.jpg ","imagenes/hogar/IMG-20250321-WA0025.jpg ","imagenes/hogar/IMG-20250321-WA0026.jpg " ]
+    },
+    {
+        "id": 7,
+        "name": "zapatera",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "zapatera de 6 niveles modular practico y elegante  ",
+        "image": "imagenes/hogar/IMG-20250321-WA0030.jpg",
+        "images": ["imagenes/hogar/IMG-20250321-WA0033.jpg ","imagenes/hogar/IMG-20250321-WA0030.jpg " ]
+    },
+    {
+        "id": 8,
+        "name": "mini waflera",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "mini waflera en forma de corazon",
+        "image": "imagenes/hogar/IMG-20250325-WA0178.jpg",
+        "images": ["imagenes/hogar/IMG-20250321-WA0024.jpg " ]
+    },
+    {
+        "id": 9,
+        "name": "organizador",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "organizador multifuncional",
+        "image": "imagenes/hogar/IMG-20250327-WA0003.jpg",
+        "images": ["imagenes/hogar/IMG-20250327-WA0005.jpg ","imagenes/hogar/IMG-20250327-WA0003.jpg " ]
+    },
+    {
+        "id": 10,
+        "name": "asador",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "asador de mesa ",
+        "image": "imagenes/hogar/IMG-20250328-WA0172.jpg",
+        "images": ["imagenes/hogar/IMG-20250328-WA0174.jpg ","imagenes/hogar/IMG-20250328-WA0178.jpg " ]
+    },
+
+    {
+        "id": 11,
+        "name": "organizador",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "practico organizador multifuncional ",
+        "image": "imagenes/hogar/IMG-20250331-WA0181.jpg",
+        "images": ["imagenes/hogar/IMG-20250331-WA0182.jpg","imagenes/hogar/IMG-20250331-WA0184.jpg " ]
+    },
+    {
+        "id": 12,
+        "name": "dosificador",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "practico dosificador de agua recargable ideal para botellones",
+        "image": "imagenes/hogar/IMG-20250402-WA0047.jpg",
+        "images": ["imagenes/hogar/IMG-20250402-WA0049.jpg","imagenes/hogar/IMG-20250402-WA0047.jpg " ]
+    },
+    {
+        "id": 13,
+        "name": "set de cuchillos",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "set de cuchillos 8 piezas con un diseño elegante ",
+        "image": "imagenes/hogar/IMG-20250403-WA0023.jpg",
+        "images": ["imagenes/hogar/IMG-20250403-WA0024.jpg ","imagenes/hogar/IMG-20250403-WA0023.jpg " ]
+    },
+    {
+        "id": 14,
+        "name": "cubiertero",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "elegante cubiertero enforma de huevo practico en diferentes colores  ",
+        "image": "imagenes/hogar/IMG-20250321-WA0023.jpg",
+        "images": ["imagenes/hogar/IMG-20250321-WA0024.jpg ","imagenes/hogar/IMG-20250321-WA0025.jpg ","imagenes/hogar/IMG-20250321-WA0026.jpg " ]
+    },
+    {
+        "id": 15,
+        "name": "ayudante de cocina",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "practico picador multifuncional para faiclitar la preparacion de comida",
+        "image": "imagenes/hogar/IMG-20250403-WA0031.jpg",
+        "images": ["imagenes/hogar/IMG-20250403-WA0033.jpg","imagenes/hogar/IMG-20250403-WA0039.jpg" ]
+    },
+    {
+        "id": 16,
+        "name": "afilador de cuchillos",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "util afilador de cuchillos ",
+        "image": "imagenes/hogar/IMG-20250403-WA0181.jpg",
+        "images": ["imagenes/hogar/IMG-20250321-WA0024.jpg " ]
+    },
+    {
+        "id": 17,
+        "name": "escurridor de platos",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "escurridor de platos pequeño versatil metalico ",
+        "image": "imagenes/hogar/IMG-20250404-WA0057.jpg",
+        "images": ["imagenes/hogar/IMG-20250404-WA0057.jpg ","imagenes/hogar/IMG-20250404-WA0053.jpg"]    
+    },
+    {
+        "id": 18,        
+        "name": "escurridor de platos",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "escurridor platos metalico con tapa varios compartimientos ",
+        "image": "imagenes/hogar/IMG-20250408-WA0031.jpg",
+        "images": ["imagenes/hogar/IMG-20250408-WA0037.jpg ","imagenes/hogar/IMG-20250408-WA0033.jpg " ]
+    },
+    {
+        "id": 19,        
+        "name": "organizador de zapatos",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "organizador de zapatos metalico 9 niveles con cubierta de tela medidas 160x60x30cm", 
+        "image": "imagenes/hogar/IMG-20250408-WA0226.jpg",
+        "images": ["imagenes/hogar/IMG-20250408-WA0228.jpg ","imagenes/hogar/IMG-20250408-WA0226.jpg " ]
+    },
+    {
+        "id": 20,        
+        "name": "organizador de baño",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "organizador de baño y lavadora metalico 3 niveles en acero de alta calidad ",
+        "image": "imagenes/hogar/IMG-20250410-WA0182.jpg",                
+        "images": ["imagenes/hogar/IMG-20250410-WA0183.jpg","imagenes/hogar/IMG-20250410-WA0182.jpg " ]        
+    },
+    {
+        "id": 21,        
+        "name": "fabricador de donas",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "fabricador de donas electrico antiadherente ",
+        "image": "imagenes/hogar/IMG-20250411-WA0020.jpg",                
+        "images": ["imagenes/hogar/IMG-20250411-WA0023.jpg", "imagenes/hogar/IMG-20250411-WA0025.jpg " ]        
+    },
+     {
+        "id": 3,
+        "name": "Manta Kawaii",
+        "price": 20000,
+        "category": "kawaii",
+        "description": "Manta suave y abrigadora con diseño kawaii.",
+        "image": "imagenes/kawaii/IMG_20230911_162817_941.jpg",
+        "images": ["../imagenes/IMG_20230911_162817_941.jpg"]
+    },
+    {
+        "id": 4,
+        "name": "joyero kawaii",
+        "price": 15000,
+        "category": "kawaii",
+        "description": "pequeño joyero con diseño kawaii en porcelana.",
+        "image": "imagenes/kawaii/2023112022511944.jpg",
+        "images": ["imagenes/kawaii/2023112023164815.jpg","imagenes/kawaii/2023112023311164.jpg","imagenes/kawaii/2023112023464722.jpg","imagenes/kawaii/2023112023484760.jpg"]
+    },
+    {
+        "id": 5,
+        "name": "lampara kawaii",
+        "price": 15000,
+        "category": "kawaii",
+        "description": "pequeña lampara kawaii.",
+        "image": "imagenes/kawaii/2023112311591288.jpg",
+        "images": ["../imagenes/cojin_kawaii.jpg"]
+    },
+    {
+        "id": 6,
+        "name": "diario kawaii",
+        "price": 15000,
+        "category": "kawaii",
+        "description": "diario en varios motivos kawaii.",
+        "image": "imagenes/kawaii/IMG_20230808_092746_221.jpg",
+        "images": ["../imagenes/cojin_kawaii.jpg"]
+    },
+    {
+        "id": 7,
+        "name": "morral astronauta",
+        "price": 15000,
+        "category": "kawaii",
+        "description": "morral escolar con diseño de astronauta.",
+        "image": "imagenes/kawaii/2023121323084308.jpg",
+        "images": ["../imagenes/cojin_kawaii.jpg"]
+    },
+    {
+        "id": 8,
+        "name": "cuaderno kawaii",
+        "price": 15000,
+        "category": "kawaii",
+        "description": "cuaderno con diseño de astronauta.",
+        "image": "imagenes/kawaii/IMG_20230807_160607_088.jpg",
+        "images": ["../imagenes/cojin_kawaii.jpg"]
+    },
+    {
+        "id": 9,
+        "name": "portacarnet",
+        "price": 15000,
+        "category": "kawaii",
+        "description": "porta carnet kawaii con correa ajustable",
+        "image": "imagenes/kawaii/IMG_20230903_151606_569.jpg",
+        "images": ["../imagenes/cojin_kawaii.jpg"]
+    },
+    {
+        "id": 1,
+        "name": "mugs la sirenita",
+        "price": 70000,
+        "category": "mugs",
+        "description": "set de 2 mugs con diseño de la sirenita en ceramica ",
+        "image": "imagenes/mugs/IMG_20250209_124157_249@1464327742.jpg",
+        "images": ["imagenes/mugs/harry_potter.jpg"]
+    },
+    {
+        "id": 2,
+        "name": "mugs disney",
+        "price": 70000,
+        "category": "mugs",
+        "description": "set 2 mugs diseño disney pluto y monterrey en ceramica ",
+        "image": "imagenes/mugs/IMG_20250209_124231_289@-1865255113.jpg",
+        "images": ["imagenes/mugs/star_wars.jpg"]
+    },
+    {
+        "id": 3,
+        "name": "mugs disney",
+        "price": 70000,
+        "category": "mugs",
+        "description": "set de 2 mugs con diseño miky mouse y minnie en ceramica ",
+        "image": "imagenes/mugs/IMG_20250209_124248_319@-1141948347.jpg",
+        "images": ["imagenes/mugs/IMG-20250204-WA0108.jpg","imagenes/mugs/IMG_20250209_124248_319@-1141948347.jpg"]
+    },
+    {
+        "id": 4,
+        "name": "mugs harry",
+        "price": 70000,
+        "category": "mugs",
+        "description": " set 2 mugs con iseño de harry potter con tapa y agitador en ceramica ",
+        "image": "imagenes/mugs/IMG_20250209_124448_354@-330984770.jpg",
+        "images": ["imagenes/mugs/harry_potter.jpg"]
+    },
+    {
+        "id": 5,
+        "name": "mugs bingo bluey ",
+        "price": 70000,
+        "category": "mugs",
+        "description": "set de 2 mugs con diseño bingo y bluey en ceramica ",
+        "image": "imagenes/mugs/IMG_20250209_124524_471@2141932857.jpg",    
+        "images": ["imagenes/mugs/harry_potter.jpg"]
+    },
+    {
+        "id": 6,
+        "name": "mugs disney",
+        "price": 70000,
+        "category": "mugs",
+        "description": "set de 2 mugs con diseño la dama y el vagabundo en ceramica ",
+        "image": "imagenes/mugs/IMG-20250204-WA0109.jpg",    
+        "images": ["imagenes/mugs/harry_potter.jpg"]
+    },
+    {
+        "id": 24,
+        "name": "Sombrilla",
+        "price": 25000,
+        "category": "sombrillas",
+        "description": "Sombrilla plastica con diseño kawaii.",
+        "image": "imagenes/Sombrillas/IMG-20250304-WA0117.jpg",
+        "images": ["imagenes/Sombrillas/IMG-20250304-WA0118.jpg","imagenes/Sombrillas/IMG-20250304-WA0119.jpg","imagenes/Sombrillas/IMG-20250304-WA0121.jpg"]
+    },
+    {
+        "id": 25,
+        "name": "Sombrilla ",
+        "price": 35000,
+        "category": "sombrillas",
+        "description": "Sombrilla plastica diseño f118 en diferentes colores. ",
+        "image": "imagenes/Sombrillas/IMG-20250304-WA0122.jpg",
+        "images": ["imagenes/Sombrillas/IMG-20250304-WA0123.jpg","imagenes/Sombrillas/IMG-20250304-WA0126.jpg"]
+    },
+    {
+        "id": 26,
+        "name": "Sombrilla",
+        "price": 35000,
+        "category": "sombrillas",
+        "description": "Sombrilla plastica con diseño frozen en diferentes colores. ",
+        "image": "imagenes/Sombrillas/IMG-20250304-WA0125.jpg",
+        "images": ["imagenes/Sombrillas/IMG-20250304-WA0128.jpg"]
+    }
+
+    
+    
+
+    
+    
+
+   
+    
+]

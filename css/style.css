@@ -1,0 +1,147 @@
+/* Estilos personalizados */
+
+.bg-light {
+    background-color: #d1e0f0 !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar {
+    background-color: #99c7f8 !important;
+}
+
+#navbarNavDropdown{
+    font-size: 20px;
+    background-color: #99c7f8;
+}  
+
+a{
+    font-size: 20px;
+    }
+
+
+
+#cart-btn {
+    background-color: #4b19d6;
+    color: #fff;
+    border: none;
+    padding: 3px;
+    border-radius: 5px; 
+
+    
+}
+.btn {
+    background-color: #d1efcd;
+    color: #111112;
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+.card {
+    background: hsl(334, 69%, 78%);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    height: 100%; /* Asegura que todas las tarjetas tengan la misma altura */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#product-count{
+
+    font-size: 20px;
+    background-color: rgb(172, 237, 237);
+    padding: auto;
+    text-align: center;
+}
+
+/* Estilo para las imágenes de las tarjetas */
+.card-img-top {
+    height: 400px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Recorta la imagen para que encaje sin deformarse */
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho de la tarjeta */
+}
+
+/* Estilo para el cuerpo de las tarjetas */
+.card-body {
+    flex-grow: 1; /* Permite que el contenido del cuerpo se ajuste dinámicamente */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#cart-items p {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#cart-items button {
+    margin-left: 10px;
+}
+
+
+i{
+    font-size: 50px;
+    color: #09cb20;
+
+}
+
+
+/* Estilos para las miniaturas */
+.thumbnails {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.thumbnail-img {
+    width: 50px; /* Ajusta el tamaño de las miniaturas */
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #ddd; /* Borde para las miniaturas */
+    border-radius: 5px;
+    object-fit: cover; /* Asegura que la imagen se ajuste al contenedor */
+}
+
+.thumbnail-img:hover {
+    border-color: #007bff; /* Cambia el color del borde al pasar el mouse */
+    transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+    transition: 0.2s ease-in-out;
+}
+
+/* Estilos para el menú desplegable */
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Cambiar el color de fondo del menú desplegable */
+.dropdown-menu {
+    background-color: #a5e8f6; /* Cambia este color al que prefieras */
+    border: none; /* Opcional: elimina el borde */
+}
+
+/* Cambiar el color de fondo de los elementos al pasar el mouse */
+.dropdown-menu .dropdown-item:hover {
+    background-color: #007bff; /* Color de fondo al pasar el mouse */
+    color: #fff; /* Color del texto al pasar el mouse */
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Estilos para el título de la categoría */
+#category-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+

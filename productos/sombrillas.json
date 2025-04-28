@@ -1,0 +1,29 @@
+[
+    {
+        "id": 24,
+        "name": "Sombrilla",
+        "price": 25000,
+        "category": "sombrillas",
+        "description": "Sombrilla plastica con diseño kawaii.",
+        "image": "imagenes/Sombrillas/IMG-20250304-WA0117.jpg",
+        "images": ["imagenes/Sombrillas/IMG-20250304-WA0118.jpg","imagenes/Sombrillas/IMG-20250304-WA0119.jpg","imagenes/Sombrillas/IMG-20250304-WA0121.jpg"]
+    },
+    {
+        "id": 25,
+        "name": "Sombrilla ",
+        "price": 35000,
+        "category": "sombrillas",
+        "description": "Sombrilla plastica diseño f118 en diferentes colores. ",
+        "image": "imagenes/Sombrillas/IMG-20250304-WA0122.jpg",
+        "images": ["imagenes/Sombrillas/IMG-20250304-WA0123.jpg","imagenes/Sombrillas/IMG-20250304-WA0126.jpg"]
+    },
+    {
+        "id": 26,
+        "name": "Sombrilla",
+        "price": 35000,
+        "category": "sombrillas",
+        "description": "Sombrilla plastica con diseño frozen en diferentes colores. ",
+        "image": "imagenes/Sombrillas/IMG-20250304-WA0125.jpg",
+        "images": ["imagenes/Sombrillas/IMG-20250304-WA0128.jpg"]
+    }
+]

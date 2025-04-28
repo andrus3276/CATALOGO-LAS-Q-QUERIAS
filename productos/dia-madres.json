@@ -1,0 +1,18 @@
+[
+    {
+        "id": 20,
+        "name": "arreglo de rosas",
+        "price": 80000,
+        "category": "dia-madres",
+        "description": "arreglo de rosas frescas para dia de las madres.",
+        "image": "imagenes/dia-madres/arreglo_rosas.jpg"
+    },
+    {
+        "id": 21,
+        "name": "arreglo de flores",
+        "price": 120000,
+        "category": "dia-madres",
+        "description": "arreglo de flores frescas para dia de las madres.",
+        "image": "imagenes/dia-madres/arreglo_flores.jpg"
+    }
+]

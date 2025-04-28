@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Cunplano de madera",
+        "price": 25000,
+        "category": "cunplanos",
+        "description": "Cunplano de madera para decoraci n.",
+        "image": "../imagenes/cunplanos/cunplano_madera.jpg",
+        "images": ["../imagenes/cunplanos/cunplano_madera.jpg"]
+    },
+    {
+        "id": 2,
+        "name": "Cunplano de vidrio",
+        "price": 30000,
+        "category": "cunplanos",
+        "description": "Cunplano de vidrio para decoraci n.",
+        "image": "../imagenes/cunplanos/cunplano_vidrio.jpg",
+        "images": ["../imagenes/cunplanos/cunplano_vidrio.jpg"]
+    }
+]

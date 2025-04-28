@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CATALOGO LAS Q-QUERIAS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="../imagenes/IMG-20231106-WA0014.jpg">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js" defer></script>
+</head>
+
+<body class="bg-light">
+
+    <!-- Navbar -->
+    <nav class="fixed-top navbar navbar-expand-lg bg-white shadow-sm">
+        <div class="container-fluid">Tienda Las Q-Querias
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                    <!-- Menú desplegable de Categorías -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="categoryDropdown" role="button" data-bs-toggle="dropdown">
+                            Categorías
+                        </a>
+                        <ul class="dropdown-menu" id="category-menu">
+                            <!-- Las categorías se cargarán dinámicamente desde el archivo JSON -->
+                        </ul>
+                    </li>
+
+                    <!-- Menú desplegable de Fechas Especiales -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="specialDatesDropdown" role="button" data-bs-toggle="dropdown">
+                            Fechas Especiales
+                        </a>
+                        <ul class="dropdown-menu" id="special-dates-menu">
+                            <!-- Las subcategorías de fechas especiales se cargarán dinámicamente -->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn btn-primary" id="cart-btn">
+                🛒 <span id="cart-count" class="badge bg-danger">0</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Productos -->
+    <div class="container mt-5 pt-4 ">
+        <h1 id="category-title">Todos los Productos</h1>
+        <p id="product-count" class="text-muted"></p>
+        <div class="row" id="product-list"></div>
+    </div>
+
+    <!-- Modal del carrito -->
+    <div class="modal fade" id="cartModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">🛒 Tu Carrito</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="cart-items"></div>
+                <div class="modal-footer">
+                    <button class="btn btn-success" id="send-order">Enviar Pedido</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para mostrar la imagen ampliada -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img id="modal-image" src="" class="img-fluid" alt="Imagen ampliada">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Contact -->
+    <div class="contenido fixed-bottom text-end">
+        <a href="https://wa.me/573144918810">
+            <i class="fa-brands fa-whatsapp"></i> Contactame
+        </a>
+    </div>
+
+</body>
+
+</html>
+
