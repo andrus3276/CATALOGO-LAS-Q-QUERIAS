@@ -1,18 +1,38 @@
 [
     {
         "id": 20,
-        "name": "arreglo de rosas",
+        "name": "rosa eterna",
         "price": 80000,
         "category": "dia-madres",
-        "description": "arreglo de rosas frescas para dia de las madres.",
-        "image": "imagenes/dia-madres/arreglo_rosas.jpg"
+        "description": "rosa encapsulada para dia de las madres con mimiled",
+        "image": "imagenes/dia-madres/rosaencapsuladadoble.jpg ",
+        "images": ["imagenes/dia-madres/rosaencapsuladadoble.jpg ","imagenes/dia-madres/rosaencapsuladaroja.jpg","imagenes/dia-madres/rosaeternarosada.jpg "]
     },
     {
         "id": 21,
-        "name": "arreglo de flores",
+        "name": "cartera estuche reloj",
         "price": 120000,
         "category": "dia-madres",
-        "description": "arreglo de flores frescas para dia de las madres.",
-        "image": "imagenes/dia-madres/arreglo_flores.jpg"
-    }
+        "description": "cartera estuche reloj pulsera cadena para madres aretes",
+        "image": "imagenes/dia-madres/carteraestuchereloj2.jpg",
+        "images": ["imagenes/dia-madres/carteraestuchereloj5.jpg","imagenes/dia-madres/carteraestuchereloj3.jpg ","imagenes/dia-madres/carteraestuchereloj4.jpg "]
+    },
+    {
+        "id": 22,
+        "name": "cartera estuche reloj",
+        "price": 120000,
+        "category": "dia-madres",
+        "description": "cartera estuche reloj pulsera cadena para madres aretes",
+        "image": "imagenes/dia-madres/carteraestuchereloj2.jpg",
+        "images": ["imagenes/dia-madres/carteraestuchereloj6.jpg","imagenes/dia-madres/carteraestuchereloj7.jpg ","imagenes/dia-madres/carteraestuchereloj8.jpg ","imagenes/dia-madres/carteraestuchereloj9.jpg "]
+    },
+    {
+        "id": 23,
+        "name": "estuche reloj",
+        "price": 120000,
+        "category": "dia-madres",
+        "description": "estuche reloj pulseras diferentes motivos para madres",
+        "image": "imagenes/dia-madres/estuchereloj1.jpg",
+        "images": ["imagenes/dia-madres/estuchereloj2.jpg ","imagenes/dia-madres/estuchereloj3.jpg ","imagenes/dia-madres/estuchereloj4.jpg ","imagenes/dia-madres/estuchereloj5.jpg ","imagenes/dia-madres/estuchereloj6.jpg "]
+    }   
 ]
