@@ -52,6 +52,15 @@
         "description": "set de 2 mugs con diseño la dama y el vagabundo en ceramica ",
         "image": "imagenes/mugs/IMG-20250204-WA0109.jpg",    
         "images": ["imagenes/mugs/harry_potter.jpg"]
+    },
+    {
+        "id": 7,
+        "name": "pocillo tintero ",
+        "price": 70000,
+        "category": "mugs",
+        "description": "pocillos tinteros 6 unidades diferentes motivos ",
+        "image": "imagenes/mugs/pocillotintero.jpg",
+        "images": ["imagenes/mugs/pocillotinterominie.jpg", "imagenes/mugs/pocillotinteropoo.jpg ", "imagenes/mugs/pocillotinterostich.jpg"]
     }
    
 ]

@@ -138,5 +138,19 @@
          "imagenes/thermos/IMG-20250405-WA0009.jpg",
          "imagenes/thermos/IMG-20250405-WA0010.jpg"
       ]
+   },
+   {
+      "id": 20,
+      "name": "estuche termo",            
+      "price": 68000,                  
+      "category": "termos",
+      "description": "lujoso estuche termo de 500ml con set de 3 tazas para bebida fria o caliente diferentes colores.",
+      "image": "imagenes/thermos/termotazaazul.jpg",
+      "images": [
+         "imagenes/thermos/termotazaplateado.jpg",
+         "imagenes/thermos/termotazaverde.jpg",
+         "imagenes/termotazagris.jpg "
+         
+      ]
    }
 ]
