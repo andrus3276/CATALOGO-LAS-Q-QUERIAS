@@ -9,6 +9,7 @@ const sendOrder = document.getElementById("send-order");
 const modalImage = document.getElementById("modal-image");
 
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
+let allProducts = []; // Variable global para almacenar todos los productos
 
 // Cargar categorías dinámicamente
 async function loadCategories() {
@@ -69,16 +70,25 @@ async function loadProducts(category = "todos") {
     try {
         const fileName = category === "todos" ? "todos.json" : `${category}.json`; // Determina el archivo JSON
         const response = await fetch(`productos/${fileName}`);
+        if (!response.ok) {
+            throw new Error(`Error al cargar el archivo: productos/${fileName}`);
+        }
         const products = await response.json();
+
+        // Si estamos cargando todos los productos, los guardamos en la variable global
+        if (category === "todos") {
+            allProducts = products;
+        }
 
         // Mostrar el número total de productos
         const productCountElement = document.getElementById("product-count");
         productCountElement.textContent = `Total de productos: ${products.length}`;
 
-        renderProducts(products);
+        renderProducts(products); // Renderiza los productos cargados
     } catch (error) {
         console.error("Error cargando productos:", error);
-        productList.innerHTML = "<p class='text-center text-danger'>Error al cargar los productos.</p>";
+        const productList = document.getElementById("product-list");
+        productList.innerHTML = "<p class='text-center text-danger'>Error al cargar los productos. Verifica la consola para más detalles.</p>";
     }
 }
 
@@ -103,9 +113,9 @@ function renderProducts(products) {
                     <img src="${product.image.trim()}" class="card-img-top" alt="${product.name}" loading="lazy" onclick="openImageModal('${product.image.trim()}')">
                     ${thumbnails}
                     <div class="card-body text-center">
-                        <h5 class="card-title">${product.name}</h5>
+                        <h5 class="card-title product-name">${product.name}</h5>
                         <p class="card-text">${product.description}</p>
-                        <p class="card-text fw-bold">categoría: ${product.category}</p> 
+                        <p class="card-text fw-bold">Categoría: ${product.category}</p> 
                         <p class="card-text fw-bold">$${product.price.toLocaleString()}</p>
                         <button class="btn btn-success" onclick="addToCart(${product.id}, '${product.name}', ${product.price})">Agregar al carrito</button>
                     </div>
@@ -163,7 +173,12 @@ function removeFromCart(index) {
     updateCart();
 }
 
-// Enviar pedido por WhatsApp con manejo de errores
+// Enviar pedido por WhatsApp
+document.getElementById('send-order').addEventListener('click', function () {
+    sendToWhatsApp(); // Llama directamente a la función para enviar el pedido
+});
+
+// Función para enviar el pedido por WhatsApp
 function sendToWhatsApp() {
     if (cart.length === 0) {
         alert("Tu carrito está vacío.");
@@ -177,7 +192,7 @@ function sendToWhatsApp() {
 
     const newWindow = window.open(url, "_blank");
     if (!newWindow || newWindow.closed || typeof newWindow.closed === "undefined") {
-        alert("No se pudo abrir WhatsApp. Por favor, revisa tu configuración del navegador.");
+       //lert("No se pudo abrir WhatsApp. Por favor, revisa tu configuración del navegador.");
     }
 }
 
@@ -187,8 +202,29 @@ cartBtn.addEventListener("click", () => {
 });
 sendOrder.addEventListener("click", sendToWhatsApp);
 
+// Función de búsqueda
+document.getElementById('search-btn').addEventListener('click', function () {
+    const searchTerm = document.getElementById('search-input').value.toLowerCase().trim(); // Normaliza el término de búsqueda
+
+    if (searchTerm === "") {
+        renderProducts(allProducts); // Si el campo de búsqueda está vacío, muestra todos los productos
+        return;
+    }
+
+    const filteredProducts = allProducts.filter(product =>
+        product.name.toLowerCase().includes(searchTerm) // Busca coincidencias en el nombre del producto
+    );
+
+    if (filteredProducts.length > 0) {
+        renderProducts(filteredProducts); // Muestra los productos que coinciden
+    } else {
+        alert("Producto no encontrado.");
+        renderProducts(allProducts); // Opcional: Muestra todos los productos si no se encuentra ninguno
+    }
+});
+
 // Inicializar la página
-loadCategories();
-loadProducts();
-updateCart();
+loadProducts(); // Carga todos los productos al iniciar
+loadCategories(); // Carga las categorías dinámicamente
+updateCart(); // Actualiza el carrito
 

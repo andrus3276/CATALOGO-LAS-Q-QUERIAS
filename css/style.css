@@ -15,12 +15,16 @@
 
 a{
     font-size: 20px;
+
+}
+a:hover {
+    color: #fff;
     }
 
 
 
 #cart-btn {
-    background-color: #4b19d6;
+    background-color: #4610db;
     color: #fff;
     border: none;
     padding: 3px;
@@ -87,10 +91,19 @@ a{
 
 i{
     font-size: 50px;
-    color: #09cb20;
+    color: #50e650;
 
 }
 
+/* Ajustar el tamaño de la lupa */
+#search-btn i {
+    font-size: 14px; /* Tamaño más pequeño para la lupa */
+}
+
+/* Reducir el padding del botón */
+#search-btn {
+    padding: 4px 8px;
+}
 
 /* Estilos para las miniaturas */
 .thumbnails {

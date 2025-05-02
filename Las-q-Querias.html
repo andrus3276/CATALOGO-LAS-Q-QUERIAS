@@ -16,16 +16,30 @@
 <body class="bg-light">
 
     <!-- Navbar DE LA TIENDA -->
-    <nav class="fixed-top navbar navbar-expand-lg bg-white shadow-sm">
-        <div class="container-fluid">Tienda Las Q-Querias
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container-fluid">
+            <!-- Campo de búsqueda -->
+            <form class="d-flex align-items-center" style="max-width: 300px;">
+                <input class="form-control form-control-sm me-2" type="search" id="search-input" placeholder="Buscar productos..." aria-label="Buscar">
+                <button class="btn btn-outline-secondary btn-sm" type="button" id="search-btn">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+
+            <!-- Título de la tienda -->
+            <span class="navbar-brand mx-3">Tienda Las Q-Querias</span>
+
+            <!-- Botón de menú para dispositivos pequeños -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+            <!-- Menú desplegable -->
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mx-auto">
                     <!-- Menú desplegable de Categorías -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="categoryDropdown" role="button" data-bs-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="categoryDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Categorías
                         </a>
                         <ul class="dropdown-menu" id="category-menu">
@@ -35,7 +49,7 @@
 
                     <!-- Menú desplegable de Fechas Especiales -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="specialDatesDropdown" role="button" data-bs-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="specialDatesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Fechas Especiales
                         </a>
                         <ul class="dropdown-menu" id="special-dates-menu">
@@ -44,6 +58,8 @@
                     </li>
                 </ul>
             </div>
+
+            <!-- Botón del carrito -->
             <button class="btn btn-primary" id="cart-btn">
                 🛒 <span id="cart-count" class="badge bg-danger">0</span>
             </button>
@@ -54,7 +70,7 @@
     <div class="container mt-5 pt-4 ">
         <h1 id="category-title">Todos los Productos</h1>
         <p id="product-count" class="text-muted"></p>
-        <div class="row" id="product-list"></div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="product-list"></div>
     </div>
 
     <!-- Modal del carrito -->
