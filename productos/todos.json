@@ -475,12 +475,12 @@
         "image": "imagenes/Sombrillas/IMG-20250304-WA0125.jpg",
         "images": ["imagenes/Sombrillas/IMG-20250304-WA0128.jpg"]
     },
-     {
+    {
         "id": 7,
-        "name": "Humidificador Portátil",
+        "name": "Humidificador masmelo",
         "price": 25000,
         "category": "humidificadores",
-        "description": "Humidificador portátil para mantener el ambiente fresco.",
+        "description": "humidificador masmelo 500ml para mantener el ambiente fresco con cableno recargable",
         "image": "imagenes/humidificadores/huimidificadormasmelo500ml.jpg",
         "images": ["../imagenes/humidificador_portatil.jpg"]
     },
@@ -489,9 +489,207 @@
         "name": "Humidificador Grande",
         "price": 50000,
         "category": "humidificadores",
-        "description": "Humidificador de gran capacidad para espacios amplios.",
-        "image": "../imagenes/humidificador_grande.jpg",
+        "description": "Humidificador de gran capacidad 1800ml para espacios amplios tipo gota con cableno recargable 7 colores",
+        "image": "imagenes/humidificadores/humidficadorgota7colores1800ml.jpg",
         "images": ["../imagenes/humidificador_grande.jpg"]
+    },
+    {
+        "id": 9,
+        "name": "Humidificador aguacate",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificador guacate 200ml para mantener el ambiente fresco con cable no recargable",
+        "image": "imagenes/humidificadores/humidificadoragucate200ml.jpg",
+        "images": ["imagenes/humidificadores/humidificador aguacatemedidas.jpg","imagenes/humidificadores/humidificadoragucate200ml.jpg"]
+    },
+    {
+        "id": 10,
+        "name": "Humidificador Grande",
+        "price": 50000,
+        "category": "humidificadores",
+        "description": "Humidificador de gran capacidad 2.5litros para espacios amplios  con cable no recargable",
+        "image": "imagenes/humidificadores/humidificador2.5litros.jpg",
+        "images": ["../imagenes/humidificador_grande.jpg"]
+    },
+    {
+        "id": 11,
+        "name": "Humidificador mediano",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificador mediano 200ml para mantener el ambiente fresco con cable no recargable",
+        "image": "imagenes/humidificadores/humidificador2niveles200ml.jpg",
+        "images": ["../imagenes/humidificador_portatil.jpg"]
+    },
+    {
+        "id": 12,
+        "name": "Humidificador grande",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificador grande 2.5litros 7 colores para mantener el ambiente fresco espacios amplios con cable no recargable",
+        "image": "imagenes/humidificadores/humidificador7colores2.5litros.jpg",
+        "images": ["../imagenes/humidificador_portatil.jpg"]
+    },
+    {
+        "id": 13,
+        "name": "Humidificador astronauta",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificador astronauta 260ml para mantener el ambiente fresco con cableno recargable",
+        "image": "imagenes/humidificadores/humidificadorastronautaluz260ml.jpg",
+        "images": ["../imagenes/humidificador_portatil.jpg"]
+    } ,
+    {
+        "id": 14,
+        "name": "Humidificador cas",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificadoren forma de casa para mantener el ambiente fresco con cableno recargable",
+        "image": "imagenes/humidificadores/humidificadorcasa.jpg",
+        "images": ["../imagenes/humidificador_portatil.jpg"]
+    },
+    {
+        "id": 15,
+        "name": "Humidificador chimenea",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificador chimenea 200ml para mantener el ambiente fresco con cableno recargable",
+        "image": "imagenes/humidificadores/humidificadorchimenea1.jpg",
+        "images": ["imagenes/humidificadores/humidificadorchimenea200ml.jpg","imagenes/humidificadores/humidificadorchimenea2.jpg","imagenes/humidificadores/humidificadorchimenea3.jpg"]
+    } ,
+    {
+        "id": 16,
+        "name": "Humidificador chimenea control",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificador portatil 200ml para mantener el ambiente fresco con cable no recargable",
+        "image": "imagenes/humidificadores/humidificadorchimeneacontrolluces.jpg",
+        "images": ["../imagenes/humidificador_portatil.jpg"]
+    },
+    {
+        "id": 17,
+        "name": "Humidificador hongo",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificador hongo 230ml para mantener el ambiente fresco con cable no recargable",
+        "image": "imagenes/humidificadores/humidificadorhongo230ml.jpg",
+        "images": ["imagenes/humidificadores/humidificadorchimenea200ml.jpg"]
+    },
+    {
+        "id": 18,
+        "name": "Humidificador lampara",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificador lampara 300ml para mantener el ambiente fresco con cable no recargable",
+        "image": "imagenes/humidificadores/humidificadorla´para300ml.jpg",
+        "images": ["../imagenes/humidificador_portatil.jpg"]
+    },
+    {
+        "id": 19,
+        "name": "Humidificador astronauta",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificador tipo astronauta 250ml para mantener el ambiente fresco con cable no recargable",
+        "image": "imagenes/humidificadores/humidificadorlampara250ml.jpg",
+        "images": ["../imagenes/humidificador_portatil.jpg"]
+    },
+    {
+        "id": 20,
+        "name": "Humidificador largo",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificador portatil tipo chupo largo 3litros para mantener el ambiente fresco con cable no recargable",
+        "image": "imagenes/humidificadores/humidificadorlargo3litros.jpg",
+        "images": ["../imagenes/humidificador_portatil.jpg"]
+    },
+    {
+        "id": 21,
+        "name": "Humidificador lampara",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificador lampara portatil 200ml para mantener el ambiente fresco con cable no recargable",
+        "image": "imagenes/humidificadores/humidificadorllampara200ml.jpg",
+        "images": ["../imagenes/humidificador_portatil.jpg"]
+    },
+    {
+        "id": 22,
+        "name": "Humidificador luna",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificador luna 800ml para mantener el ambiente fresco con cableno recargable",
+        "image": "imagenes/humidificadores/humidificadorluma lampara800ml.jpg",
+        "images": ["../imagenes/humidificador_portatil.jpg"]
+    },
+    {
+        "id": 23,
+        "name": "Humidificador tipo madera",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificador madera 320ml para mantener el ambiente fresco con cableno recargable",
+        "image": "imagenes/humidificadores/humidificadormadera320ml.jpg",
+        "images": ["../imagenes/humidificador_portatil.jpg"]
+    },
+    {
+        "id": 24,
+        "name": "Humidificador pajarito",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificador pajarito 300ml para mantener el ambiente fresco con cableno recargable",
+        "image": "imagenes/humidificadores/humidificadorpajarito300ml.jpg",
+        "images": ["../imagenes/humidificador_portatil.jpg"]
+    },
+    {
+        "id": 25,
+        "name": "Humidificador proyector",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificador proyector 300ml para mantener el ambiente fresco con cableno recargable",
+        "image": "imagenes/humidificadores/humidificadorproyector300ml.jpg",
+        "images": ["../imagenes/humidificador_portatil.jpg"]
+    },
+    {
+        "id": 26,
+        "name": "Humidificador redondo",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificador redondo 130ml para mantener el ambiente fresco con cableno recargable",
+        "image": "imagenes/humidificadores/humidificadorredondo130ml.jpg",
+        "images": ["../imagenes/humidificador_portatil.jpg"]
+    },
+    {
+        "id": 27,
+        "name": "Humidificador grande jarron",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificadortipo jarron 3litros para mantener el ambiente fresco con cableno recargable",
+        "image": "imagenes/humidificadores/humidificadorvarioscolores3litros.jpg",
+        "images": ["../imagenes/humidificador_portatil.jpg"]
+    },
+    {
+        "id": 28,
+        "name": "Humidificador volcan",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificador volcan 300ml para mantener el ambiente fresco con cableno recargable",
+        "image": "imagenes/humidificadores/humidificadorvolcan300ml.jpg",
+        "images": ["../imagenes/humidificador_portatil.jpg"]
+    },
+    {
+        "id": 29,
+        "name": "Humidificador rectangular",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificador rectangular 260ml para mantener el ambiente fresco con cableno recargable",
+        "image": "imagenes/humidificadores/humodificadorrectangular260ml.jpg",
+        "images": ["../imagenes/humidificador_portatil.jpg"]
+    },
+    {
+        "id": 30,
+        "name": "Humidificador grande",
+        "price": 25000,
+        "category": "humidificadores",
+        "description": "humidificador rectangular grande 4litros para mantener el ambiente fresco con cableno recargable",
+        "image": "imagenes/humidificadores/midificadorgrande4litros.jpg",
+        "images": ["../imagenes/humidificador_portatil.jpg"]
     }
 
     
