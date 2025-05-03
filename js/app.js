@@ -203,23 +203,45 @@ cartBtn.addEventListener("click", () => {
 sendOrder.addEventListener("click", sendToWhatsApp);
 
 // Función de búsqueda
+let searchIndex = 0; // Índice para rastrear la posición en los resultados de búsqueda
+let lastSearchTerm = ""; // Último término de búsqueda
+
 document.getElementById('search-btn').addEventListener('click', function () {
     const searchTerm = document.getElementById('search-input').value.toLowerCase().trim(); // Normaliza el término de búsqueda
 
     if (searchTerm === "") {
         renderProducts(allProducts); // Si el campo de búsqueda está vacío, muestra todos los productos
+        searchIndex = 0; // Reinicia el índice
+        lastSearchTerm = ""; // Limpia el último término de búsqueda
         return;
     }
 
+    // Si el término de búsqueda es el mismo que el anterior, avanza al siguiente resultado
+    if (searchTerm === lastSearchTerm) {
+        searchIndex++;
+    } else {
+        searchIndex = 0; // Reinicia el índice si el término de búsqueda cambia
+        lastSearchTerm = searchTerm; // Actualiza el último término de búsqueda
+    }
+
+    // Filtrar productos que coincidan con el término de búsqueda en todas las categorías
     const filteredProducts = allProducts.filter(product =>
         product.name.toLowerCase().includes(searchTerm) // Busca coincidencias en el nombre del producto
     );
 
     if (filteredProducts.length > 0) {
-        renderProducts(filteredProducts); // Muestra los productos que coinciden
+        // Si el índice supera el número de resultados, reinícialo
+        if (searchIndex >= filteredProducts.length) {
+            searchIndex = 0;
+        }
+
+        // Renderiza solo el producto actual basado en el índice
+        renderProducts([filteredProducts[searchIndex]]);
     } else {
         alert("Producto no encontrado.");
-        renderProducts(allProducts); // Opcional: Muestra todos los productos si no se encuentra ninguno
+        renderProducts(allProducts); // Muestra todos los productos si no se encuentra ninguno
+        searchIndex = 0; // Reinicia el índice
+        lastSearchTerm = ""; // Limpia el último término de búsqueda
     }
 });
 

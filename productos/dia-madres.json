@@ -34,5 +34,16 @@
         "description": "estuche reloj pulseras diferentes motivos para madres",
         "image": "imagenes/dia-madres/estuchereloj1.jpg",
         "images": ["imagenes/dia-madres/estuchereloj2.jpg ","imagenes/dia-madres/estuchereloj3.jpg ","imagenes/dia-madres/estuchereloj4.jpg ","imagenes/dia-madres/estuchereloj5.jpg ","imagenes/dia-madres/estuchereloj6.jpg "]
-    }   
+    },
+    {
+        "id": 24,
+        "name": "mugsmadres",
+        "price": 120000,
+        "category": "dia-madres",
+        "description": "mugsmadres sublemaciones para madres",
+        "image": "imagenes/dia-madres/mugsmadres1.jpg ",
+        "images": ["imagenes/dia-madres/mugsmadres2.jpg","imagenes/dia-madres/mugsmadres3.jpg ","imagenes/dia-madres/mugsmadres4.jpg ","imagenes/dia-madres/mugsmadres5.jpg ","imagenes/dia-madres/mugsmadres6.jpg "]
+
+    }
+    
 ]

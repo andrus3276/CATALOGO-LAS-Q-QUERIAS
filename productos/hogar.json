@@ -208,7 +208,44 @@
         "description": "practico cepillo secador de pelo color aguacate  ",
         "image": "imagenes/hogar/IMG-20250404-WA0048.jpg",                
         "images": ["imagenes/hogar/IMG-20250404-WA0049.jpg","imagenes/hogar/IMG-20250404-WA0051.jpg" ]        
+    },
+    {
+        "id": 24,        
+        "name": "happy nappes",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "happy nappes almohada y saco de dormir en uno diseño unicornio ", 
+        "image": "imagenes/hogar/bolsadormir.jpg",
+        "images": ["imagenes/hogar/IMG-20250408-WA0228.jpg " ]
+    },
+    {
+        "id": 25,        
+        "name": "organizador de baño",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "organizador de baño y lavadora metalico 3 niveles en acero de alta calidad ",
+        "image": "imagenes/hogar/IMG-20250410-WA0182.jpg",                
+        "images": ["imagenes/hogar/IMG-20250410-WA0183.jpg","imagenes/hogar/IMG-20250410-WA0182.jpg " ]        
+    },
+    {
+        "id": 26,        
+        "name": "molde siliconado",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "molde siliconado para alta temperatura especial para airfryer", 
+        "image": "imagenes/hogar/moldealtatempfrye.jpg",                
+        "images": ["imagenes/hogar/IMG-20250411-WA0023.jpg" ]        
+    },
+    {
+        "id": 27,        
+        "name": "set ollas y cucharas",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "set de 13 piezas antiadherente para su hogar moderno  ", 
+        "image": "imagenes/hogar/setollasycucharas.jpg",                
+        "images": ["imagenes/hogar/IMG-20250411-WA0023.jpg" ]        
     }
+   
     
    
 

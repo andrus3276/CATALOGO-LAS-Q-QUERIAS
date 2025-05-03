@@ -690,7 +690,18 @@
         "description": "humidificador rectangular grande 4litros para mantener el ambiente fresco con cableno recargable",
         "image": "imagenes/humidificadores/midificadorgrande4litros.jpg",
         "images": ["../imagenes/humidificador_portatil.jpg"]
+    },
+
+     {
+        "id": 22,
+        "name": "Lampara de mesa",
+        "price": 25000,
+        "category": "lamparas",
+        "description": "lampara de mesa 20w para iluminar tu hogar",        
+        "image": "imagenes/lamparas/IMG-20250411-WA0023.jpg",               
+        "images": ["imagenes/lamparas/IMG-20250411-WA0024.jpg ","imagenes/lamparas/IMG-20250411-WA0023.jpg " ]
     }
+
 
     
     
