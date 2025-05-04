@@ -138,10 +138,22 @@ function openImageModal(imageUrl) {
 function addToCart(id, name, price) {
     const existingItem = cart.find(item => item.id === id);
     if (existingItem) {
-        const confirmAdd = confirm("Este producto ya está en el carrito. ¿Deseas agregarlo nuevamente?");
-        if (!confirmAdd) {
-            return;
-        }
+        Swal.fire({
+            title: 'Producto duplicado',
+            text: 'Este producto ya está en el carrito. ¿Deseas agregarlo nuevamente?',
+            icon: 'question',
+            showCancelButton: true,
+            confirmButtonText: 'Sí, agregar',
+            cancelButtonText: 'No'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                cart.push({ id, name, price });
+                saveCart();
+                updateCart();
+                console.log("Producto agregado al carrito:", { id, name, price });
+            }
+        });
+        return;
     }
     cart.push({ id, name, price });
     saveCart();
@@ -181,7 +193,12 @@ document.getElementById('send-order').addEventListener('click', function () {
 // Función para enviar el pedido por WhatsApp
 function sendToWhatsApp() {
     if (cart.length === 0) {
-        alert("Tu carrito está vacío.");
+        Swal.fire({
+            title: 'Carrito vacío',
+            text: 'Tu carrito está vacío. Por favor, agrega productos antes de enviar el pedido.',
+            icon: 'warning',
+            confirmButtonText: 'Aceptar'
+        });
         return;
     }
 
@@ -238,7 +255,12 @@ document.getElementById('search-btn').addEventListener('click', function () {
         // Renderiza solo el producto actual basado en el índice
         renderProducts([filteredProducts[searchIndex]]);
     } else {
-        alert("Producto no encontrado.");
+        Swal.fire({
+            title: 'Producto no encontrado',
+            text: 'Por favor, intenta con otro término de búsqueda.',
+            icon: 'warning',
+            confirmButtonText: 'Aceptar'
+        });
         renderProducts(allProducts); // Muestra todos los productos si no se encuentra ninguno
         searchIndex = 0; // Reinicia el índice
         lastSearchTerm = ""; // Limpia el último término de búsqueda
