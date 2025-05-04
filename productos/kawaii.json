@@ -61,5 +61,78 @@
         "description": "porta carnet kawaii con correa ajustable",
         "image": "imagenes/kawaii/IMG_20230903_151606_569.jpg",
         "images": ["../imagenes/cojin_kawaii.jpg"]
+    },
+
+    {
+        "id": 1,
+        "name": "pantufla babucha",
+        "price": 70000,
+        "category": "mugs",
+        "description": "pantufla babucha diseño gato con¿modas y suaves ",
+        "image": "imagenes/kawaii/pantuflacat.jpg",
+        "images": ["imagenes/mugs/harry_potter.jpg"]
+    },
+    {
+        "id": 2,
+        "name": "pantufla babucha",
+        "price": 70000,
+        "category": "mugs",
+        "description": "pantufla babucha con diseño de conejo",
+        "image": "imagenes/kawaii/pantuflaconejo.jpg",
+        "images": ["imagenes/mugs/harry_potter.jpg"]
+    },
+    {
+        "id": 3,
+        "name": "pantufla babucha",
+        "price": 70000,
+        "category": "mugs",
+        "description": "pantufla babucha con diseño kawwai comodas y suaves",
+        "image": "imagenes/kawaii/pantuflakawaii1.jpg",
+        "images": ["imagenes/kawaii/pantuflakawaii2.jpg","imagenes/kawaii/pantuflakawaii3.jpg","imagenes/kawaii/pantuflakawaii4.jpg","imagenes/kawaii/pantuflakuromi.jpg"]
+    },
+    {
+        "id": 4,
+        "name": "pantufla babucha",
+        "price": 70000,
+        "category": "mugs",
+        "description": "pantufla babucha con diseño panda comodas y suaves",
+        "image": "imagenes/kawaii/pantuflapanda.jpg",
+        "images": ["imagenes/kawaii/pantuflakawaii2.jpg"]
+    },
+    {
+        "id": 5,
+        "name": "pantufla babucha",
+        "price": 70000,
+        "category": "mugs",
+        "description": "pantufla babucha con diseño pig comodas y suaves",
+        "image": "imagenes/kawaii/pantuflapink.jpg",
+        "images": ["imagenes/kawaii/pantuflakawaii2.jpg"]
+    },
+    {
+        "id": 6,
+        "name": "pantufla babucha",
+        "price": 70000,
+        "category": "mugs",
+        "description": "pantufla babucha con diseño stich comodas y suaves",
+        "image": "imagenes/kawaii/pantuflastich.jpg",
+        "images": ["imagenes/kawaii/pantuflakawaii2.jpg"]
+    },
+    {
+        "id": 7,
+        "name": "pantufla babucha",
+        "price": 70000,
+        "category": "mugs",
+        "description": "pantufla babucha con diseño teddy comodas y suaves",
+        "image": "imagenes/kawaii/pantuflateddy.jpg",
+        "images": ["imagenes/kawaii/pantuflakawaii2.jpg"]
+    },
+    {
+        "id": 8,
+        "name": "pantufla babucha",
+        "price": 70000,
+        "category": "mugs",
+        "description": "pantufla babucha con diseño unicornio comodas y suaves",
+        "image": "imagenes/kawaii/pantuflaunicornio.jpg",
+        "images": ["imagenes/kawaii/pantuflakawaii2.jpg"]
     }
 ]
