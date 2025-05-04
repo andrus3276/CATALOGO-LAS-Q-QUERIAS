@@ -331,6 +331,26 @@
         "image": "imagenes/hogar/IMG-20250411-WA0020.jpg",                
         "images": ["imagenes/hogar/IMG-20250411-WA0023.jpg", "imagenes/hogar/IMG-20250411-WA0025.jpg " ]        
     },
+    {
+        "id": 26,        
+        "name": "molde siliconado",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "molde siliconado para alta temperatura especial para airfryer", 
+        "image": "imagenes/hogar/moldealtatempfrye.jpg",                
+        "images": ["imagenes/hogar/IMG-20250411-WA0023.jpg" ]        
+    },
+    {
+        "id": 27,        
+        "name": "set ollas y cucharas",        
+        "price": 135000,
+        "category": "hogar",
+        "description": "set de 13 piezas antiadherente para su hogar moderno  ", 
+        "image": "imagenes/hogar/setollasycucharas.jpg",                
+        "images": ["imagenes/hogar/IMG-20250411-WA0023.jpg" ]        
+    },
+
+
      {
         "id": 3,
         "name": "Manta Kawaii",
@@ -694,13 +714,114 @@
 
      {
         "id": 22,
-        "name": "Lampara de mesa",
+        "name": "Lampara clip colores",
         "price": 25000,
         "category": "lamparas",
-        "description": "lampara de mesa 20w para iluminar tu hogar",        
-        "image": "imagenes/lamparas/IMG-20250411-WA0023.jpg",               
-        "images": ["imagenes/lamparas/IMG-20250411-WA0024.jpg ","imagenes/lamparas/IMG-20250411-WA0023.jpg " ]
+        "description": "lampara con clip recargable varios colores",        
+        "image": "imagenes/lamparas/lamparaclipcolores.jpg",               
+        "images": ["imagenes/lamparas/IMG-20250411-WA0024.jpg " ]
+    },
+
+    {
+        "id": 23,
+        "name": "Lampara de clip ",
+        "price": 25000,
+        "category": "lamparas",
+        "description": "lampara clip recargable lectura",        
+        "image": "imagenes/lamparas/lamparacliplectura.jpg",               
+        "images": ["imagenes/lamparas/IMG-20250411-WA0024.jpg " ]  
+    },
+
+    {
+        "id": 24,
+        "name": "Lampara clip",
+        "price": 25000,
+        "category": "lamparas",
+        "description": "lampara clip ovaladarecargable",        
+        "image": "imagenes/lamparas/lamparaclipovalada.jpg ",               
+        "images": ["imagenes/lamparas/IMG-20250411-WA0024.jpg "]
+    },
+
+    {
+        "id": 25,
+        "name": "Lampara ",
+        "price": 25000,
+        "category": "lamparas",
+        "description": "lampara clip ovaladarecargable",        
+        "image": "imagenes/lamparas/lamparaclipovalo.jpg",               
+        "images": ["imagenes/lamparas/IMG-20250411-WA0024.jpg "]
+    },
+
+    {
+        "id": 26,
+        "name": "Lampara clip",
+        "price": 25000,
+        "category": "lamparas",
+        "description": "lampara clip plana",        
+        "image": " imagenes/lamparas/lamparaclipplana.jpg",               
+        "images": ["imagenes/lamparas/IMG-20250411-WA0024.jpg "]
+    },
+
+    {
+        "id": 27,
+        "name": "Lampara cristal",
+        "price": 25000,
+        "category": "lamparas",
+        "description": "lampara de mesa cristal ",        
+        "image": "imagenes/lamparas/lamparacristalfiguras.jpg",               
+        "images": ["imagenes/lamparas/lamparatoque.jpg ","imagenes/lamparas/lamparacristalfiguras.jpg "]
+    } ,
+
+    {
+        "id": 28,
+        "name": "Lampara cubo aurora",
+        "price": 25000,
+        "category": "lamparas",
+        "description": "lampara cubo aurora boreal",        
+        "image": "imagenes/lamparas/lamparacuboaurora.jpg",               
+        "images": ["imagenes/lamparas/IMG-20250411-WA0024.jpg "] 
+    },
+    {
+        "id": 29,
+        "name": "Lampara esfera cristal",
+        "price": 25000,
+        "category": "lamparas",
+        "description": "lampara esfera cristal diferentes motivos sodiacal no recargable con cable  ",        
+        "image": "imagenes/lamparas/lamparaesferacristal.jpg",               
+        "images": ["imagenes/lamparas/lamparaesferacristal.jpg","imagenes/lamparas/lamparaesferacristal1.jpg "]
+    },
+
+    {
+        "id": 30,
+        "name": "Lampara proyector",
+        "price": 25000,
+        "category": "lamparas",
+        "description": "lampara mesa proyector multicolores con control de luminosidad  ",        
+        "image": "imagenes/lamparas/lamparaledcolores.jpg",               
+        "images": ["imagenes/lamparas/IMG-20250411-WA0024.jpg " ]
+    },
+
+    {
+        "id": 31,
+        "name": "Lampara pared",
+        "price": 25000,
+        "category": "lamparas",
+        "description": "lampara led de pared con control 3 tonos cable recargable",        
+        "image": "imagenes/lamparas/lamparaparedcontrol.jpg",               
+        "images": ["imagenes/lamparas/lamparaparedcontrol.jpg ","imagenes/lamparas/lamparaparedcontrol2.jpg" ]
+    },
+    {
+        
+        "id": 10,
+        "name": "Audífonos Bluetooth",
+        "price": 45000,
+        "category": "tecnologia",
+        "description": "Audífonos Bluetooth con cancelación de ruido.",
+        "image": "../imagenes/audifonos_bluetooth.jpg",
+        "images": ["../imagenes/audifonos_bluetooth.jpg"]
+    
     }
+
 
 
     

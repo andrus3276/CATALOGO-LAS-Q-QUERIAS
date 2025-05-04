@@ -1,20 +1,102 @@
 [
     {
         "id": 9,
-        "name": "Cargador Inalámbrico",
+        "name": "cafetera electrica",
         "price": 35000,
         "category": "tecnologia",
-        "description": "Cargador inalámbrico rápido compatible con múltiples dispositivos.",
-        "image": "../imagenes/cargador_inalambrico.jpg",
+        "description": "cafetera electrica a 110v con cable cuerpo siliconado de 1.5 litros practica para viajes",
+        "image": "imagenes/tecnologia/cafeteraelectrica.jpg",
         "images": ["../imagenes/cargador_inalambrico.jpg"]
     },
     {
         "id": 10,
-        "name": "Audífonos Bluetooth",
+        "name": "cepillo secador de pelo",
         "price": 45000,
         "category": "tecnologia",
-        "description": "Audífonos Bluetooth con cancelación de ruido.",
-        "image": "../imagenes/audifonos_bluetooth.jpg",
+        "description": "cepillo secador de pelo color aguacate practico para viaje",
+        "image": "imagenes/tecnologia/cepillosecadoraguacate.jpg",
+        "images": ["../imagenes/audifonos_bluetooth.jpg"]
+    },
+    {
+        "id": 11,
+        "name": "consola videojuegos",
+        "price": 45000,
+        "category": "tecnologia",
+        "description": "consola videojuegos controles pila AA inalambricos arcede con multiconsolas facil instalacion a tv ",
+        "image": "imagenes/tecnologia/consolavideojuegos.jpg",
+        "images": ["../imagenes/audifonos_bluetooth.jpg"]
+    },
+
+    {
+        "id": 12,
+        "name": "licuadora portatil",
+        "price": 45000,
+        "category": "tecnologia",
+        "description": "licuadora batidos portatil recargable para viajes con cable ",
+        "image": "imagenes/tecnologia/licuadoraportatil.jpg",
+        "images": ["../imagenes/audifonos_bluetooth.jpg"]
+    },
+    {
+        "id": 13,
+        "name": "licuadora portatil",
+        "price": 45000,
+        "category": "tecnologia",
+        "description": "licuadora batidos portatil recargable para viajes con cable ",
+        "image": "imagenes/tecnologia/licuadoraportatil.jpg",
+        "images": ["../imagenes/audifonos_bluetooth.jpg"]
+    },
+    {
+        "id": 14,
+        "name": "lonchera electrica",
+        "price": 45000,
+        "category": "tecnologia",
+        "description": "lonchera electrica a 110v con cable practica para calentar alimentos varios colores",
+        "image": "imagenes/tecnologia/loncheraelectrica.jpg",
+        "images": ["imagenes/tecnologia/loncheraelectrica.jpg","imagenes/tecnologia/loncheraelectricacarro.jpg"]
+    },
+    {
+        "id": 15,
+        "name": "chocolater",
+        "price": 45000,
+        "category": "tecnologia",
+        "description": "chocolatera para derretir chocolate a 110v con cable",
+        "image": "imagenes/tecnologia/ollaparaderretirchocolate.jpg",
+        "images": ["../imagenes/audifonos_bluetooth.jpg"]
+    },
+    {
+        "id": 16,
+        "name": "cargador inalambrico",
+        "price": 45000,
+        "category": "tecnologia",
+        "description": "cargador inalambrico para celular con cable",
+        "image": "imagenes/tecnologia/cargador_inalambrico.jpg",
+        "images": ["../imagenes/audifonos_bluetooth.jpg"]
+    },
+    {
+        "id": 17,
+        "name": "pinza sirenita",
+        "price": 45000,
+        "category": "tecnologia",
+        "description": "pinza sirena para ondular cabello con cable a 110v",
+        "image": "imagenes/tecnologia/pinzasirena.jpg",
+        "images": ["../imagenes/audifonos_bluetooth.jpg"]
+    },
+    {
+        "id": 18,
+        "name": "tablero magico",
+        "price": 45000,
+        "category": "tecnologia",
+        "description": "tablero magico para mensajes rapidos enseñanza recordatorios etc funciona con bateria mini",
+        "image": "imagenes/tecnologia/tableromagico.jpg",
+        "images": ["../imagenes/audifonos_bluetooth.jpg"]
+    },
+    {
+        "id": 19,
+        "name": "ventilador humidificador",
+        "price": 45000,
+        "category": "tecnologia",
+        "description": "prantico ventilador con humidificador para auto portatil 3 velocidades con cable diferentes colores no recargable",
+        "image": "imagenes/tecnologia/ventilador3velocidades.jpg",
         "images": ["../imagenes/audifonos_bluetooth.jpg"]
     }
 ]
