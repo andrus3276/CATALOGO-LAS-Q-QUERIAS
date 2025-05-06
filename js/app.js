@@ -8,30 +8,29 @@ const cartItems = document.getElementById("cart-items");
 const sendOrder = document.getElementById("send-order");
 const modalImage = document.getElementById("modal-image");
 
-
-//en let cart se guarda el carrito en el localStorage y se inicia vacio 
-//y con json parse se transforma el string en un array
+// Variables globales
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
+console.log("Inicialización del carrito:", cart);
+
 let allProducts = []; // Variable global para almacenar todos los productos
+console.log("Inicialización de allProducts:", allProducts);
 
 // Cargar categorías dinámicamente
 async function loadCategories() {
     try {
-        const response = await fetch("productos/todos.json"); // Carga todos los productos
+        const response = await fetch("productos/todos.json");
         const products = await response.json();
+        console.log("Productos cargados para categorías:", products);
 
-        // Obtener categorías únicas y ordenarlas alfabéticamente
         const categories = [...new Set(products.map(product => product.category))].sort();
+        console.log("Categorías detectadas:", categories);
 
-        // Agregar categorías al menú dinamicamente
         let categoryHtml = `<li><a class="dropdown-item" href="#" onclick="filterProducts('todos')">Todos los Productos</a></li>`;
         categories.forEach(category => {
             categoryHtml += `<li><a class="dropdown-item" href="#" onclick="filterProducts('${category}')">${capitalize(category)}</a></li>`;
         });
-        // Agregar categorías al menú dinamicamente
         document.getElementById("category-menu").innerHTML = categoryHtml;
 
-        
         loadSpecialDates();
     } catch (error) {
         console.error("Error cargando categorías:", error);
@@ -62,6 +61,7 @@ function capitalize(word) {
 
 // Filtrar productos por categoría o subcategoría
 function filterProducts(category) {
+    console.log("Filtrando productos por categoría:", category);
     const categoryTitle = document.getElementById("category-title");
     categoryTitle.textContent = category === "todos" ? "Todos los Productos" : capitalize(category.replace("-", " "));
 
@@ -72,30 +72,32 @@ function filterProducts(category) {
 // Cargar productos desde JSON
 async function loadProducts(category = "todos") {
     try {
-        const fileName = category === "todos" ? "todos.json" : `${category}.json`; // Determina el archivo JSON
+        const fileName = category === "todos" ? "todos.json" : `${category}.json`;
+        console.log(`Cargando productos desde: productos/${fileName}`);
+
         const response = await fetch(`productos/${fileName}`);
         if (!response.ok) {
             throw new Error(`Error al cargar el archivo: productos/${fileName}`);
         }
         const products = await response.json();
+        console.log("Productos cargados:", products);
 
-        // Si estamos cargando todos los productos, los guardamos en la variable global
         if (category === "todos") {
             allProducts = products;
+            console.log("allProducts actualizado:", allProducts);
         }
 
-        // Asigna un stock predeterminado de 1 si no está definido
         products.forEach(product => {
             if (product.stock === undefined) {
                 product.stock = 1;
             }
         });
 
-        // Mostrar el número total de productos
         const productCountElement = document.getElementById("product-count");
         productCountElement.textContent = `Total de productos: ${products.length}`;
+        console.log("Número total de productos:", products.length);
 
-        renderProducts(products); // Renderiza los productos cargados
+        renderProducts(products);
     } catch (error) {
         console.error("Error cargando productos:", error);
         const productList = document.getElementById("product-list");
@@ -105,6 +107,8 @@ async function loadProducts(category = "todos") {
 
 // Renderizar productos en la pantalla
 function renderProducts(products) {
+    console.log("Renderizando productos:", products);
+
     const productList = document.getElementById("product-list");
     let html = "";
 
@@ -119,14 +123,12 @@ function renderProducts(products) {
             `
             : "";
 
-        // Verifica si el producto está agotado
         const stockMessage = product.stock === 0
             ? `<span class="badge bg-danger">Agotado</span>`
             : product.stock > 1
             ? `<span class="badge bg-success">En stock: ${product.stock}</span>`
-            : ""; // No muestra nada si el stock es 1
+            : "";
 
-        // Deshabilita el botón si el producto está agotado
         const addToCartButton = product.stock === 0
             ? `<button class="btn btn-secondary" disabled>Agotado</button>`
             : `<button class="btn btn-success" onclick="addToCart(${product.id}, '${product.name}', ${product.price})">Agregar al carrito</button>`;
@@ -159,9 +161,10 @@ function openImageModal(imageUrl) {
     modal.show(); // Mostramos el modal
 }
 
-// Agregar al carrito con validación para evitar duplicados
-//aqui se agrega el producto al carrito y se guarda en el localStorage
+// Agregar al carrito
 function addToCart(id, name, price) {
+    console.log("Intentando agregar al carrito:", { id, name, price });
+
     const existingItem = cart.find(item => item.id === id);
     if (existingItem) {
         Swal.fire({
@@ -176,7 +179,7 @@ function addToCart(id, name, price) {
                 cart.push({ id, name, price });
                 saveCart();
                 updateCart();
-                console.log("Producto agregado al carrito:", { id, name, price });
+                console.log("Producto agregado nuevamente al carrito:", { id, name, price });
             }
         });
         return;
@@ -193,8 +196,10 @@ function saveCart() {
     console.log("Carrito guardado en localStorage:", cart);
 }
 
-// Actualizar carrito (modal e icono)
+// Actualizar carrito
 function updateCart() {
+    console.log("Actualizando carrito:", cart);
+
     cartCount.textContent = cart.length;
     cartItems.innerHTML = cart.length === 0
         ? "<p class='text-muted'>Tu carrito está vacío. Agrega productos para comenzar.</p>"
@@ -218,6 +223,8 @@ document.getElementById('send-order').addEventListener('click', function () {
 
 // Función para enviar el pedido por WhatsApp
 function sendToWhatsApp() {
+    console.log("Enviando pedido por WhatsApp. Contenido del carrito:", cart);
+
     if (cart.length === 0) {
         Swal.fire({
             title: 'Carrito vacío',
@@ -230,9 +237,11 @@ function sendToWhatsApp() {
 
     const message = cart.map(item => `${item.name} - $${item.price.toLocaleString()}`).join("\n");
     const total = cart.reduce((acc, item) => acc + item.price, 0);
+    console.log("Mensaje generado para WhatsApp:", message);
+    console.log("Total del pedido:", total);
+
     const phone = "573144918810";
     const url = `https://wa.me/${phone}?text=¡Hola! Quiero hacer un pedido:%0A${message}%0A%0ATotal: $${total.toLocaleString()}`;
-
     const newWindow = window.open(url, "_blank");
     if (!newWindow || newWindow.closed || typeof newWindow.closed === "undefined") {
        //lert("No se pudo abrir WhatsApp. Por favor, revisa tu configuración del navegador.");
@@ -241,6 +250,7 @@ function sendToWhatsApp() {
 
 // Event listeners
 cartBtn.addEventListener("click", () => {
+    console.log("Abriendo carrito...", cart);
     new bootstrap.Modal(document.getElementById("cartModal")).show();
 });
 sendOrder.addEventListener("click", sendToWhatsApp);
@@ -294,7 +304,7 @@ document.getElementById('search-btn').addEventListener('click', function () {
 });
 
 // Inicializar la página
-loadProducts(); // Carga todos los productos al iniciar
-loadCategories(); // Carga las categorías dinámicamente
-updateCart(); // Actualiza el carrito
+loadProducts();
+loadCategories();
+updateCart();
 
