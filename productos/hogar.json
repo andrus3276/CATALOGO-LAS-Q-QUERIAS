@@ -23,7 +23,7 @@
         "name": "armario portatil",
         "price": 95000,
         "category": "hogar",
-        "description": "set utensilios para cocina siliconado",
+        "description": "armario portatil armable multifuncional",
         "image": "imagenes/hogar/IMG-20250318-WA0245.jpg",
         "images": ["imagenes/hogar/IMG-20250318-WA0245.jpg","imagenes/hogar/IMG-20250318-WA0250.jpg"]
     },
