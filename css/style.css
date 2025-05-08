@@ -232,3 +232,60 @@ footer {
     }
 }
 
+/* Ajustar el tamaño de las tarjetas en pantallas pequeñas (móviles y tablets) */
+@media (max-width: 1024px) {
+    .card-img-top {
+        height: 150px; /* Reduce la altura de las imágenes */
+    }
+
+    .card {
+        font-size: 0.8rem; /* Reduce el tamaño del texto */
+        margin-bottom: 10px; /* Espaciado entre tarjetas */
+    }
+
+    .row-cols-1 .col {
+        flex: 0 0 50%; /* Dos tarjetas por fila */
+        max-width: 50%;
+    }
+}
+
+/* Ajustar el tamaño de las tarjetas en pantallas medianas (laptops pequeñas) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .card-img-top {
+        height: 200px; /* Ajusta la altura de las imágenes */
+    }
+
+    .card {
+        font-size: 0.9rem; /* Tamaño de texto ligeramente reducido */
+    }
+
+    .row-cols-1 .col {
+        flex: 0 0 33.33%; /* Tres tarjetas por fila */
+        max-width: 33.33%;
+    }
+}
+
+/* Ajustar el tamaño de las tarjetas en pantallas grandes (laptops grandes y monitores) */
+@media (min-width: 1441px) and (max-width: 2436px) {
+    .card-img-top {
+        height: 250px; /* Ajusta la altura de las imágenes */
+    }
+
+    .card {
+        font-size: 1rem; /* Tamaño de texto normal */
+    }
+
+    .row-cols-1 .col {
+        flex: 0 0 25%; /* Cuatro tarjetas por fila */
+        max-width: 25%;
+    }
+}
+
+/* Mantener el diseño del navbar en pantallas grandes */
+@media (min-width: 1441px) {
+    .navbar {
+        max-width: 1200px; /* Fija el ancho máximo del navbar */
+        margin: 0 auto; /* Centra el navbar */
+    }
+}
+
