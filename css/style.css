@@ -181,7 +181,7 @@ footer {
 }
 
 /* Ajustar el tamaño de las tarjetas en pantallas pequeñas */
-@media (max-width: 576px) {
+@media (max-width: 2436px) {
     .card-img-top {
         height: 120px; /* Reduce aún más la altura de las imágenes */
     }
