@@ -180,3 +180,25 @@ footer {
     color: #fff;
 }
 
+/* Ajustar el tamaño de las tarjetas en pantallas pequeñas */
+@media (max-width: 576px) {
+    .card-img-top {
+        height: 150px; /* Reduce la altura de las imágenes */
+    }
+
+    .card {
+        font-size: 0.9rem; /* Reduce el tamaño del texto */
+    }
+}
+
+/* Ajustar el tamaño de las tarjetas en pantallas medianas */
+@media (min-width: 577px) and (max-width: 768px) {
+    .card-img-top {
+        height: 200px; /* Ajusta la altura de las imágenes */
+    }
+
+    .card {
+        font-size: 1rem; /* Tamaño de texto normal */
+    }
+}
+
