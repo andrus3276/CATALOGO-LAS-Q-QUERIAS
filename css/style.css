@@ -180,4 +180,14 @@ footer {
     color: #fff;
 }
 
+@media (min-width: 720px) and (max-width: 1080px) {
+    #product-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas para las tarjetas */
+        gap: 16px; /* Espaciado entre las tarjetas */
+    }
+}
+
+
+
 
