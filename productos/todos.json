@@ -473,7 +473,7 @@
     {
         "id": 1,
         "name": "mugs la sirenita",
-        "price": 70000,
+        "price": 75000,
         "category": "mugs",
         "description": "set de 2 mugs con diseño de la sirenita en ceramica ",
         "image": "imagenes/mugs/IMG_20250209_124157_249@1464327742.jpg",
@@ -482,7 +482,7 @@
     {
         "id": 2,
         "name": "mugs disney",
-        "price": 70000,
+        "price": 75000,
         "category": "mugs",
         "description": "set 2 mugs diseño disney pluto y monterrey en ceramica ",
         "image": "imagenes/mugs/IMG_20250209_124231_289@-1865255113.jpg",
@@ -491,7 +491,7 @@
     {
         "id": 3,
         "name": "mugs disney",
-        "price": 70000,
+        "price": 75000,
         "category": "mugs",
         "description": "set de 2 mugs con diseño miky mouse y minnie en ceramica ",
         "image": "imagenes/mugs/IMG_20250209_124248_319@-1141948347.jpg",
@@ -500,7 +500,7 @@
     {
         "id": 4,
         "name": "mugs harry",
-        "price": 70000,
+        "price": 75000,
         "category": "mugs",
         "description": " set 2 mugs con iseño de harry potter con tapa y agitador en ceramica ",
         "image": "imagenes/mugs/IMG_20250209_124448_354@-330984770.jpg",
@@ -510,7 +510,7 @@
     {
         "id": 5,
         "name": "mugs bingo bluey ",
-        "price": 70000,
+        "price": 75000,
         "category": "mugs",
         "description": "set de 2 mugs con diseño bingo y bluey en ceramica ",
         "image": "imagenes/mugs/IMG_20250209_124524_471@2141932857.jpg",    
@@ -519,7 +519,7 @@
     {
         "id": 6,
         "name": "mugs disney",
-        "price": 70000,
+        "price": 75000,
         "category": "mugs",
         "description": "set de 2 mugs con diseño la dama y el vagabundo en ceramica ",
         "image": "imagenes/mugs/IMG-20250204-WA0109.jpg",    
@@ -528,7 +528,7 @@
     {
         "id": 24,
         "name": "Sombrilla",
-        "price": 25000,
+        "price": 35000,
         "category": "sombrillas",
         "description": "Sombrilla plastica con diseño kawaii.",
         "image": "imagenes/Sombrillas/IMG-20250304-WA0117.jpg",
@@ -555,7 +555,7 @@
     {
         "id": 7,
         "name": "Humidificador masmelo",
-        "price": 25000,
+        "price": 95000,
         "category": "humidificadores",
         "description": "humidificador masmelo 500ml para mantener el ambiente fresco con cableno recargable",
         "image": "imagenes/humidificadores/huimidificadormasmelo500ml.jpg",
@@ -564,7 +564,7 @@
     {
         "id": 8,
         "name": "Humidificador Grande",
-        "price": 50000,
+        "price": 110000,
         "category": "humidificadores",
         "description": "Humidificador de gran capacidad 1800ml para espacios amplios tipo gota con cableno recargable 7 colores",
         "image": "imagenes/humidificadores/humidficadorgota7colores1800ml.jpg",
@@ -573,7 +573,7 @@
     {
         "id": 9,
         "name": "Humidificador aguacate",
-        "price": 25000,
+        "price": 60000,
         "category": "humidificadores",
         "description": "humidificador guacate 200ml para mantener el ambiente fresco con cable no recargable",
         "image": "imagenes/humidificadores/humidificadoragucate200ml.jpg",
@@ -582,7 +582,7 @@
     {
         "id": 10,
         "name": "Humidificador Grande",
-        "price": 50000,
+        "price": 145000,
         "category": "humidificadores",
         "description": "Humidificador de gran capacidad 2.5litros para espacios amplios  con cable no recargable",
         "image": "imagenes/humidificadores/humidificador2.5litros.jpg",
@@ -591,7 +591,7 @@
     {
         "id": 11,
         "name": "Humidificador mediano",
-        "price": 25000,
+        "price": 40000,
         "category": "humidificadores",
         "description": "humidificador mediano 200ml para mantener el ambiente fresco con cable no recargable",
         "image": "imagenes/humidificadores/humidificador2niveles200ml.jpg",
@@ -600,7 +600,7 @@
     {
         "id": 12,
         "name": "Humidificador grande",
-        "price": 25000,
+        "price": 125000,
         "category": "humidificadores",
         "description": "humidificador grande 2.5litros 7 colores para mantener el ambiente fresco espacios amplios con cable no recargable",
         "image": "imagenes/humidificadores/humidificador7colores2.5litros.jpg",
@@ -609,7 +609,7 @@
     {
         "id": 13,
         "name": "Humidificador astronauta",
-        "price": 25000,
+        "price": 50000,
         "category": "humidificadores",
         "description": "humidificador astronauta 260ml para mantener el ambiente fresco con cableno recargable",
         "image": "imagenes/humidificadores/humidificadorastronautaluz260ml.jpg",
@@ -618,7 +618,7 @@
     {
         "id": 14,
         "name": "Humidificador cas",
-        "price": 25000,
+        "price": 60000,
         "category": "humidificadores",
         "description": "humidificadoren forma de casa para mantener el ambiente fresco con cableno recargable",
         "image": "imagenes/humidificadores/humidificadorcasa.jpg",
@@ -627,7 +627,7 @@
     {
         "id": 15,
         "name": "Humidificador chimenea",
-        "price": 25000,
+        "price": 105000,
         "category": "humidificadores",
         "description": "humidificador chimenea 200ml para mantener el ambiente fresco con cableno recargable",
         "image": "imagenes/humidificadores/humidificadorchimenea1.jpg",
@@ -636,7 +636,7 @@
     {
         "id": 16,
         "name": "Humidificador chimenea control",
-        "price": 25000,
+        "price": 110000,
         "category": "humidificadores",
         "description": "humidificador portatil 200ml para mantener el ambiente fresco con cable no recargable",
         "image": "imagenes/humidificadores/humidificadorchimeneacontrolluces.jpg",
@@ -645,7 +645,7 @@
     {
         "id": 17,
         "name": "Humidificador hongo",
-        "price": 25000,
+        "price": 55000,
         "category": "humidificadores",
         "description": "humidificador hongo 230ml para mantener el ambiente fresco con cable no recargable",
         "image": "imagenes/humidificadores/humidificadorhongo230ml.jpg",
@@ -654,7 +654,7 @@
     {
         "id": 18,
         "name": "Humidificador lampara",
-        "price": 25000,
+        "price": 70000,
         "category": "humidificadores",
         "description": "humidificador lampara 300ml para mantener el ambiente fresco con cable no recargable",
         "image": "imagenes/humidificadores/humidificadorla´para300ml.jpg",
@@ -663,7 +663,7 @@
     {
         "id": 19,
         "name": "Humidificador astronauta",
-        "price": 25000,
+        "price": 60000,
         "category": "humidificadores",
         "description": "humidificador tipo astronauta 250ml para mantener el ambiente fresco con cable no recargable",
         "image": "imagenes/humidificadores/humidificadorlampara250ml.jpg",
@@ -672,7 +672,7 @@
     {
         "id": 20,
         "name": "Humidificador largo",
-        "price": 25000,
+        "price": 145000,
         "category": "humidificadores",
         "description": "humidificador portatil tipo chupo largo 3litros para mantener el ambiente fresco con cable no recargable",
         "image": "imagenes/humidificadores/humidificadorlargo3litros.jpg",
@@ -681,7 +681,7 @@
     {
         "id": 21,
         "name": "Humidificador lampara",
-        "price": 25000,
+        "price": 55000,
         "category": "humidificadores",
         "description": "humidificador lampara portatil 200ml para mantener el ambiente fresco con cable no recargable",
         "image": "imagenes/humidificadores/humidificadorllampara200ml.jpg",
@@ -690,7 +690,7 @@
     {
         "id": 22,
         "name": "Humidificador luna",
-        "price": 25000,
+        "price": 70000,
         "category": "humidificadores",
         "description": "humidificador luna 800ml para mantener el ambiente fresco con cableno recargable",
         "image": "imagenes/humidificadores/humidificadorluma lampara800ml.jpg",
@@ -699,7 +699,7 @@
     {
         "id": 23,
         "name": "Humidificador tipo madera",
-        "price": 25000,
+        "price": 50000,
         "category": "humidificadores",
         "description": "humidificador madera 320ml para mantener el ambiente fresco con cableno recargable",
         "image": "imagenes/humidificadores/humidificadormadera320ml.jpg",
@@ -708,7 +708,7 @@
     {
         "id": 24,
         "name": "Humidificador pajarito",
-        "price": 25000,
+        "price": 70000,
         "category": "humidificadores",
         "description": "humidificador pajarito 300ml para mantener el ambiente fresco con cableno recargable",
         "image": "imagenes/humidificadores/humidificadorpajarito300ml.jpg",
@@ -717,7 +717,7 @@
     {
         "id": 25,
         "name": "Humidificador proyector",
-        "price": 25000,
+        "price": 60000,
         "category": "humidificadores",
         "description": "humidificador proyector 300ml para mantener el ambiente fresco con cableno recargable",
         "image": "imagenes/humidificadores/humidificadorproyector300ml.jpg",
@@ -726,7 +726,7 @@
     {
         "id": 26,
         "name": "Humidificador redondo",
-        "price": 25000,
+        "price": 45000,
         "category": "humidificadores",
         "description": "humidificador redondo 130ml para mantener el ambiente fresco con cableno recargable",
         "image": "imagenes/humidificadores/humidificadorredondo130ml.jpg",
@@ -735,7 +735,7 @@
     {
         "id": 27,
         "name": "Humidificador grande jarron",
-        "price": 25000,
+        "price": 145000,
         "category": "humidificadores",
         "description": "humidificadortipo jarron 3litros para mantener el ambiente fresco con cableno recargable",
         "image": "imagenes/humidificadores/humidificadorvarioscolores3litros.jpg",
@@ -744,7 +744,7 @@
     {
         "id": 28,
         "name": "Humidificador volcan",
-        "price": 25000,
+        "price": 70000,
         "category": "humidificadores",
         "description": "humidificador volcan 300ml para mantener el ambiente fresco con cableno recargable",
         "image": "imagenes/humidificadores/humidificadorvolcan300ml.jpg",
@@ -753,7 +753,7 @@
     {
         "id": 29,
         "name": "Humidificador rectangular",
-        "price": 25000,
+        "price": 35000,
         "category": "humidificadores",
         "description": "humidificador rectangular 260ml para mantener el ambiente fresco con cableno recargable",
         "image": "imagenes/humidificadores/humodificadorrectangular260ml.jpg",
@@ -762,7 +762,7 @@
     {
         "id": 30,
         "name": "Humidificador grande",
-        "price": 25000,
+        "price": 145000,
         "category": "humidificadores",
         "description": "humidificador rectangular grande 4litros para mantener el ambiente fresco con cableno recargable",
         "image": "imagenes/humidificadores/midificadorgrande4litros.jpg",
@@ -772,7 +772,7 @@
      {
         "id": 22,
         "name": "Lampara clip colores",
-        "price": 25000,
+        "price": 43000,
         "category": "lamparas",
         "description": "lampara con clip recargable varios colores",        
         "image": "imagenes/lamparas/lamparaclipcolores.jpg",               
@@ -802,7 +802,7 @@
     {
         "id": 25,
         "name": "Lampara ",
-        "price": 25000,
+        "price": 43000,
         "category": "lamparas",
         "description": "lampara clip ovaladarecargable",        
         "image": "imagenes/lamparas/lamparaclipovalo.jpg",               

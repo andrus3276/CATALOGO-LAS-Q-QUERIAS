@@ -2,7 +2,7 @@
     {
         "id": 22,
         "name": "Lampara clip colores",
-        "price": 25000,
+        "price": 45000,
         "category": "lamparas",
         "description": "lampara con clip recargable varios colores",        
         "image": "imagenes/lamparas/lamparaclipcolores.jpg",               
@@ -12,7 +12,7 @@
     {
         "id": 23,
         "name": "Lampara de clip ",
-        "price": 25000,
+        "price": 45000,
         "category": "lamparas",
         "description": "lampara clip recargable lectura",        
         "image": "imagenes/lamparas/lamparacliplectura.jpg",               
@@ -22,7 +22,7 @@
     {
         "id": 24,
         "name": "Lampara clip",
-        "price": 25000,
+        "price": 48000,
         "category": "lamparas",
         "description": "lampara clip ovaladarecargable",        
         "image": "imagenes/lamparas/lamparaclipovalada.jpg ",               
@@ -32,7 +32,7 @@
     {
         "id": 25,
         "name": "Lampara ",
-        "price": 25000,
+        "price": 43000,
         "category": "lamparas",
         "description": "lampara clip ovaladarecargable",        
         "image": "imagenes/lamparas/lamparaclipovalo.jpg",               
@@ -42,7 +42,7 @@
     {
         "id": 26,
         "name": "Lampara clip",
-        "price": 25000,
+        "price": 48000,
         "category": "lamparas",
         "description": "lampara clip plana",        
         "image": " imagenes/lamparas/lamparaclipplana.jpg",               
@@ -52,7 +52,7 @@
     {
         "id": 27,
         "name": "Lampara cristal",
-        "price": 25000,
+        "price": 60000,
         "category": "lamparas",
         "description": "lampara de mesa cristal ",        
         "image": "imagenes/lamparas/lamparacristalfiguras.jpg",               

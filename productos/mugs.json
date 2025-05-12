@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "mugs la sirenita",
-        "price": 70000,
+        "price": 75000,
         "category": "mugs",
         "description": "set de 2 mugs con diseño de la sirenita en ceramica ",
         "image": "imagenes/mugs/IMG_20250209_124157_249@1464327742.jpg",
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "mugs disney",
-        "price": 70000,
+        "price": 75000,
         "category": "mugs",
         "description": "set 2 mugs diseño disney pluto y monterrey en ceramica ",
         "image": "imagenes/mugs/IMG_20250209_124231_289@-1865255113.jpg",
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "name": "mugs disney",
-        "price": 70000,
+        "price": 75000,
         "category": "mugs",
         "description": "set de 2 mugs con diseño miky mouse y minnie en ceramica ",
         "image": "imagenes/mugs/IMG_20250209_124248_319@-1141948347.jpg",
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "name": "mugs harry",
-        "price": 70000,
+        "price": 75000,
         "category": "mugs",
         "description": " set 2 mugs con diseño de harry potter con tapa y agitador en ceramica ",
         "image": "imagenes/mugs/IMG_20250209_124448_354@-330984770.jpg",
@@ -39,7 +39,7 @@
     {
         "id": 5,
         "name": "mugs bingo bluey ",
-        "price": 70000,
+        "price": 75000,
         "category": "mugs",
         "description": "set de 2 mugs con diseño bingo y bluey en ceramica ",
         "image": "imagenes/mugs/IMG_20250209_124524_471@2141932857.jpg",    
@@ -48,7 +48,7 @@
     {
         "id": 6,
         "name": "mugs disney",
-        "price": 70000,
+        "price": 75000,
         "category": "mugs",
         "description": "set de 2 mugs con diseño la dama y el vagabundo en ceramica ",
         "image": "imagenes/mugs/IMG-20250204-WA0109.jpg",    
@@ -57,7 +57,7 @@
     {
         "id": 7,
         "name": "pocillo tintero ",
-        "price": 70000,
+        "price": 75000,
         "category": "mugs",
         "description": "pocillos tinteros 6 unidades diferentes motivos ",
         "image": "imagenes/mugs/pocillotintero.jpg",
