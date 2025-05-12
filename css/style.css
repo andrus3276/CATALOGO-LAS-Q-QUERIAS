@@ -38,7 +38,8 @@ a:hover {
 }
 
 .card img {
-    max-height: 200px;
+    max-height: 400px;
+    
     object-fit: cover;
     border-radius: 10px 10px 0 0;
     cursor: pointer;
@@ -55,6 +56,14 @@ a:hover {
     justify-content: space-between;
     
 }
+#tamaño-descripcion{
+
+    font-size: 10px;
+    background-color: rgb(172, 237, 237);
+    padding: auto;
+    text-align: center; 
+}
+
 #product-count{
 
     font-size: 20px;
@@ -180,12 +189,22 @@ footer {
     color: #fff;
 }
 
-@media (min-width: 720px) and (max-width: 1080px) {
+@media (min-width: 1080px) {
+    
+
     #product-list {
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* Dos columnas para las tarjetas */
         gap: 16px; /* Espaciado entre las tarjetas */
-    }
+    };
+}
+
+@media (min-width: 2436px) {
+    #product-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Tres columnas para las tarjetas */
+        gap: 16px; /* Espaciado entre las tarjetas */
+    };
 }
 
 
