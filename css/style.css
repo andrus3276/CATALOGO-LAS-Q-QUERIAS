@@ -189,13 +189,13 @@ footer {
     color: #fff;
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1060px) {
     
 
     #product-list {
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* Dos columnas para las tarjetas */
-        gap: 16px; /* Espaciado entre las tarjetas */
+        gap: 10px; /* Espaciado entre las tarjetas */
     };
 }
 
@@ -203,7 +203,7 @@ footer {
     #product-list {
         display: grid;
         grid-template-columns: repeat(3, 1fr); /* Tres columnas para las tarjetas */
-        gap: 16px; /* Espaciado entre las tarjetas */
+        gap: 10px; /* Espaciado entre las tarjetas */
     };
 }
 
