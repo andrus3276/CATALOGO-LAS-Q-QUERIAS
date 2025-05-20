@@ -141,11 +141,18 @@ i{
 /* Estilos para el menú desplegable */
 .navbar-nav .dropdown:hover .dropdown-menu {
     display: block;
+    text-align: left;
+    /*tamaño de la letra*/
+    font-size: 1rem;
+    background-color: #a5e8f6;
+    
+    
+
 }
 
 /* Cambiar el color de fondo del menú desplegable */
 .dropdown-menu {
-    background-color: #a5e8f6; /* Cambia este color al que prefieras */
+    background-color: #0898b5; /* Cambia este color al que prefieras */
     border: none; /* Opcional: elimina el borde */
 }
 
@@ -188,25 +195,4 @@ footer {
     background-color: #28a745;
     color: #fff;
 }
-
-@media (min-width: 1060px) {
-    
-
-    #product-list {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Dos columnas para las tarjetas */
-        gap: 10px; /* Espaciado entre las tarjetas */
-    };
-}
-
-@media (min-width: 2436px) {
-    #product-list {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr); /* Tres columnas para las tarjetas */
-        gap: 10px; /* Espaciado entre las tarjetas */
-    };
-}
-
-
-
 
