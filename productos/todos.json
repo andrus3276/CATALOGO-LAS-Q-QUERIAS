@@ -138,8 +138,8 @@
          "imagenes/thermos/IMG-20250405-WA0009.jpg",
          "imagenes/thermos/IMG-20250405-WA0010.jpg"
       ]
-   },
-    {
+   }, 
+   {
         "id": 1,
         "name": "sanduchera multifuncional",
         "price": 160000,
@@ -333,12 +333,10 @@
         "image": "imagenes/hogar/setollasycucharas.jpg",                
         "images": ["imagenes/hogar/IMG-20250411-WA0023.jpg" ]        
     },
-
-
      {
         "id": 3,
         "name": "Manta Kawaii",
-        "price": 20000,
+        "price": 80000,
         "category": "kawaii",
         "description": "Manta suave y abrigadora con diseño kawaii.",
         "image": "imagenes/kawaii/IMG_20230911_162817_941.jpg",
@@ -347,7 +345,7 @@
     {
         "id": 4,
         "name": "joyero kawaii",
-        "price": 15000,
+        "price": 25000,
         "category": "kawaii",
         "description": "pequeño joyero con diseño kawaii en porcelana.",
         "image": "imagenes/kawaii/2023112022511944.jpg",
@@ -356,7 +354,7 @@
     {
         "id": 5,
         "name": "lampara kawaii",
-        "price": 15000,
+        "price": 45000,
         "category": "kawaii",
         "description": "pequeña lampara kawaii.",
         "image": "imagenes/kawaii/2023112311591288.jpg",
@@ -365,7 +363,7 @@
     {
         "id": 6,
         "name": "diario kawaii",
-        "price": 15000,
+        "price": 38000,
         "category": "kawaii",
         "description": "diario en varios motivos kawaii.",
         "image": "imagenes/kawaii/IMG_20230808_092746_221.jpg",
@@ -374,7 +372,7 @@
     {
         "id": 7,
         "name": "morral astronauta",
-        "price": 15000,
+        "price":75000,
         "category": "kawaii",
         "description": "morral escolar con diseño de astronauta.",
         "image": "imagenes/kawaii/2023121323084308.jpg",
@@ -383,7 +381,7 @@
     {
         "id": 8,
         "name": "cuaderno kawaii",
-        "price": 15000,
+        "price": 20000,
         "category": "kawaii",
         "description": "cuaderno con diseño de astronauta.",
         "image": "imagenes/kawaii/IMG_20230807_160607_088.jpg",
@@ -392,17 +390,18 @@
     {
         "id": 9,
         "name": "portacarnet",
-        "price": 15000,
+        "price": 20000,
         "category": "kawaii",
         "description": "porta carnet kawaii con correa ajustable",
         "image": "imagenes/kawaii/IMG_20230903_151606_569.jpg",
         "images": ["../imagenes/cojin_kawaii.jpg"]
     },
+
     {
         "id": 1,
         "name": "pantufla babucha",
         "price": 70000,
-        "category": "mugs",
+        "category": "kawaii",
         "description": "pantufla babucha diseño gato con¿modas y suaves ",
         "image": "imagenes/kawaii/pantuflacat.jpg",
         "images": ["imagenes/mugs/harry_potter.jpg"]
@@ -768,11 +767,10 @@
         "image": "imagenes/humidificadores/midificadorgrande4litros.jpg",
         "images": ["../imagenes/humidificador_portatil.jpg"]
     },
-
      {
         "id": 22,
         "name": "Lampara clip colores",
-        "price": 43000,
+        "price": 45000,
         "category": "lamparas",
         "description": "lampara con clip recargable varios colores",        
         "image": "imagenes/lamparas/lamparaclipcolores.jpg",               
@@ -782,7 +780,7 @@
     {
         "id": 23,
         "name": "Lampara de clip ",
-        "price": 25000,
+        "price": 45000,
         "category": "lamparas",
         "description": "lampara clip recargable lectura",        
         "image": "imagenes/lamparas/lamparacliplectura.jpg",               
@@ -792,7 +790,7 @@
     {
         "id": 24,
         "name": "Lampara clip",
-        "price": 25000,
+        "price": 48000,
         "category": "lamparas",
         "description": "lampara clip ovaladarecargable",        
         "image": "imagenes/lamparas/lamparaclipovalada.jpg ",               
@@ -812,27 +810,16 @@
     {
         "id": 26,
         "name": "Lampara clip",
-        "price": 25000,
+        "price": 48000,
         "category": "lamparas",
         "description": "lampara clip plana",        
         "image": " imagenes/lamparas/lamparaclipplana.jpg",               
         "images": ["imagenes/lamparas/IMG-20250411-WA0024.jpg "]
     },
-
-    {
-        "id": 27,
-        "name": "Lampara cristal",
-        "price": 25000,
-        "category": "lamparas",
-        "description": "lampara de mesa cristal ",        
-        "image": "imagenes/lamparas/lamparacristalfiguras.jpg",               
-        "images": ["imagenes/lamparas/lamparatoque.jpg ","imagenes/lamparas/lamparacristalfiguras.jpg "]
-    } ,
-
     {
         "id": 28,
         "name": "Lampara cubo aurora",
-        "price": 25000,
+        "price": 85000,
         "category": "lamparas",
         "description": "lampara cubo aurora boreal",        
         "image": "imagenes/lamparas/lamparacuboaurora.jpg",               
@@ -841,7 +828,7 @@
     {
         "id": 29,
         "name": "Lampara esfera cristal",
-        "price": 25000,
+        "price": 50000,
         "category": "lamparas",
         "description": "lampara esfera cristal diferentes motivos sodiacal no recargable con cable  ",        
         "image": "imagenes/lamparas/lamparaesferacristal.jpg",               
@@ -851,17 +838,18 @@
     {
         "id": 30,
         "name": "Lampara proyector",
-        "price": 25000,
+        "price": 62000,
         "category": "lamparas",
         "description": "lampara mesa proyector multicolores con control de luminosidad  ",        
         "image": "imagenes/lamparas/lamparaledcolores.jpg",               
         "images": ["imagenes/lamparas/IMG-20250411-WA0024.jpg " ]
+        
     },
 
     {
         "id": 31,
         "name": "Lampara pared",
-        "price": 25000,
+        "price": 95000,
         "category": "lamparas",
         "description": "lampara led de pared con control 3 tonos cable recargable",        
         "image": "imagenes/lamparas/lamparaparedcontrol.jpg",               
@@ -870,7 +858,7 @@
     {
         "id": 9,
         "name": "cafetera electrica",
-        "price": 35000,
+        "price": 60000,
         "category": "tecnologia",
         "description": "cafetera electrica a 110v con cable cuerpo siliconado de 1.5 litros practica para viajes",
         "image": "imagenes/tecnologia/cafeteraelectrica.jpg",
@@ -879,7 +867,7 @@
     {
         "id": 10,
         "name": "cepillo secador de pelo",
-        "price": 45000,
+        "price": 70000,
         "category": "tecnologia",
         "description": "cepillo secador de pelo color aguacate practico para viaje",
         "image": "imagenes/tecnologia/cepillosecadoraguacate.jpg",
@@ -888,7 +876,7 @@
     {
         "id": 11,
         "name": "consola videojuegos",
-        "price": 45000,
+        "price": 120000,
         "category": "tecnologia",
         "description": "consola videojuegos controles pila AA inalambricos arcede con multiconsolas facil instalacion a tv ",
         "image": "imagenes/tecnologia/consolavideojuegos.jpg",
@@ -898,52 +886,45 @@
     {
         "id": 12,
         "name": "licuadora portatil",
-        "price": 45000,
+        "price": 62000,
         "category": "tecnologia",
         "description": "licuadora batidos portatil recargable para viajes con cable ",
         "image": "imagenes/tecnologia/licuadoraportatil.jpg",
         "images": ["../imagenes/audifonos_bluetooth.jpg"]
     },
-    {
-        "id": 13,
-        "name": "licuadora portatil",
-        "price": 45000,
-        "category": "tecnologia",
-        "description": "licuadora batidos portatil recargable para viajes con cable ",
-        "image": "imagenes/tecnologia/licuadoraportatil.jpg",
-        "images": ["../imagenes/audifonos_bluetooth.jpg"]
-    },
+   
     {
         "id": 14,
         "name": "lonchera electrica",
-        "price": 45000,
+        "price": 58000,
         "category": "tecnologia",
         "description": "lonchera electrica a 110v con cable practica para calentar alimentos varios colores",
         "image": "imagenes/tecnologia/loncheraelectrica.jpg",
-        "images": ["imagenes/tecnologia/loncheraelectrica.jpg","imagenes/tecnologia/loncheraelectricacarro.jpg"]
+        "images": ["imagenes/tecnologia/loncheraelectrica.jpg"]
+    },
+    {
+        "id": 14,
+        "name": "lonchera electrica carro",
+        "price": 95000,
+        "category": "tecnologia",
+        "description": "lonchera electrica a 110v con cable practica para calentar alimentos varios colores",
+        "image": "imagenes/tecnologia/loncheraelectricacarro.jpg",
+        "images": ["imagenes/tecnologia/loncheraelectricacarro.jpg"]
     },
     {
         "id": 15,
-        "name": "chocolater",
-        "price": 45000,
+        "name": "chocolatera",
+        "price": 70000,
         "category": "tecnologia",
         "description": "chocolatera para derretir chocolate a 110v con cable",
         "image": "imagenes/tecnologia/ollaparaderretirchocolate.jpg",
         "images": ["../imagenes/audifonos_bluetooth.jpg"]
     },
-    {
-        "id": 16,
-        "name": "cargador inalambrico",
-        "price": 45000,
-        "category": "tecnologia",
-        "description": "cargador inalambrico para celular con cable",
-        "image": "imagenes/tecnologia/cargador_inalambrico.jpg",
-        "images": ["../imagenes/audifonos_bluetooth.jpg"]
-    },
+    
     {
         "id": 17,
         "name": "pinza sirenita",
-        "price": 45000,
+        "price": 80000,
         "category": "tecnologia",
         "description": "pinza sirena para ondular cabello con cable a 110v",
         "image": "imagenes/tecnologia/pinzasirena.jpg",
@@ -952,7 +933,7 @@
     {
         "id": 18,
         "name": "tablero magico",
-        "price": 45000,
+        "price": 55000,
         "category": "tecnologia",
         "description": "tablero magico para mensajes rapidos enseñanza recordatorios etc funciona con bateria mini",
         "image": "imagenes/tecnologia/tableromagico.jpg",
@@ -961,16 +942,16 @@
     {
         "id": 19,
         "name": "ventilador humidificador",
-        "price": 45000,
+        "price": 78000,
         "category": "tecnologia",
         "description": "prantico ventilador con humidificador para auto portatil 3 velocidades con cable diferentes colores no recargable",
         "image": "imagenes/tecnologia/ventilador3velocidades.jpg",
         "images": ["../imagenes/audifonos_bluetooth.jpg"]
     },
-    {
+     {
         "id": 1,
         "name": "burbujero",
-        "price": 3000,
+        "price": 60000,
         "category": "jugueteria",
         "description": "burbujero diseño rueda de baterias triple AAA no incluidas con solucion burbujas ",
         "image": "imagenes/jugueteria/burbujerorueda1.jpg",
@@ -979,7 +960,7 @@
     {
         "id": 2,
         "name": "burbujero",
-        "price": 10000,
+        "price": 60000,
         "category": "jugueteria",
         "description": "burbujero pulpo de baterias triple AAA no incluidas con solucion burbujas ",
         "image": "imagenes/jugueteria/burbujeropulpo.jpg",
@@ -988,7 +969,7 @@
     {
         "id": 3,
         "name": "carro control",
-        "price": 20000,
+        "price": 250000,
         "category": "jugueteria",
         "description": "carro control manilla de baterias triple AAA no incluidas colores llamativos bota humo con control ",
         "image": "imagenes/jugueteria/carrocontrolmanija.jpg",
@@ -997,7 +978,7 @@
     {
         "id": 4,
         "name": "libro didactico",
-        "price": 3000,
+        "price": 65000,
         "category": "jugueteria",
         "description": "libro didactico de enseñansa control tactil pila plana  ",
         "image": "imagenes/jugueteria/juegodidacticolibro.jpg",
@@ -1006,7 +987,7 @@
     {
         "id": 5,
         "name": "neceser maquillaje",
-        "price": 3000,
+        "price": 120000,
         "category": "jugueteria",
         "description": "pelota de baterias triple AAA no incluidas con solucion pelotas ",
         "image": "imagenes/jugueteria/necesermaquillaje.jpg",
@@ -1015,7 +996,7 @@
     {
         "id": 6,
         "name": "pista neon",
-        "price": 3000,
+        "price": 80000,
         "category": "jugueteria",
         "description": "pista carro neon 220 piezas 2 carros de baterias triple AAA no incluidas con solucion pista  ",
         "image": "imagenes/jugueteria/pistaneon.jpg",
@@ -1024,7 +1005,7 @@
     {
         "id": 7,
         "name": "unicornio musical",
-        "price": 3000,
+        "price": 80000 ,
         "category": "jugueteria",
         "description": "unicornio musical de baterias triple AAA no incluidas c  ",
         "image": "imagenes/jugueteria/ponymusical.jpg",
@@ -1033,10 +1014,14 @@
     {
         "id": 8,
         "name": "set pintura",
-        "price": 3000,
+        "price": 58000,
         "category": "jugueteria",
         "description": "set pintura aquarelas con bosetos   ",
         "image": "imagenes/jugueteria/setde pintura.jpg",
         "images": ["imagenes/jugueteria/setde pintura.jpg","imagenes/jugueteria/setdepintura1.jpg","imagenes/jugueteria/setdepintura3.jpg"]
     }
 ]
+
+
+     
+    

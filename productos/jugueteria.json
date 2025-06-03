@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "burbujero",
-        "price": 3000,
+        "price": 60000,
         "category": "jugueteria",
         "description": "burbujero diseño rueda de baterias triple AAA no incluidas con solucion burbujas ",
         "image": "imagenes/jugueteria/burbujerorueda1.jpg",
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "burbujero",
-        "price": 10000,
+        "price": 60000,
         "category": "jugueteria",
         "description": "burbujero pulpo de baterias triple AAA no incluidas con solucion burbujas ",
         "image": "imagenes/jugueteria/burbujeropulpo.jpg",
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "name": "carro control",
-        "price": 20000,
+        "price": 250000,
         "category": "jugueteria",
         "description": "carro control manilla de baterias triple AAA no incluidas colores llamativos bota humo con control ",
         "image": "imagenes/jugueteria/carrocontrolmanija.jpg",
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "name": "libro didactico",
-        "price": 3000,
+        "price": 65000,
         "category": "jugueteria",
         "description": "libro didactico de enseñansa control tactil pila plana  ",
         "image": "imagenes/jugueteria/juegodidacticolibro.jpg",
@@ -38,7 +38,7 @@
     {
         "id": 5,
         "name": "neceser maquillaje",
-        "price": 3000,
+        "price": 120000,
         "category": "jugueteria",
         "description": "pelota de baterias triple AAA no incluidas con solucion pelotas ",
         "image": "imagenes/jugueteria/necesermaquillaje.jpg",
@@ -47,7 +47,7 @@
     {
         "id": 6,
         "name": "pista neon",
-        "price": 3000,
+        "price": 80000,
         "category": "jugueteria",
         "description": "pista carro neon 220 piezas 2 carros de baterias triple AAA no incluidas con solucion pista  ",
         "image": "imagenes/jugueteria/pistaneon.jpg",
@@ -56,7 +56,7 @@
     {
         "id": 7,
         "name": "unicornio musical",
-        "price": 3000,
+        "price": 80000 ,
         "category": "jugueteria",
         "description": "unicornio musical de baterias triple AAA no incluidas c  ",
         "image": "imagenes/jugueteria/ponymusical.jpg",
@@ -65,7 +65,7 @@
     {
         "id": 8,
         "name": "set pintura",
-        "price": 3000,
+        "price": 58000,
         "category": "jugueteria",
         "description": "set pintura aquarelas con bosetos   ",
         "image": "imagenes/jugueteria/setde pintura.jpg",

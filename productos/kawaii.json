@@ -2,7 +2,7 @@
     {
         "id": 3,
         "name": "Manta Kawaii",
-        "price": 20000,
+        "price": 80000,
         "category": "kawaii",
         "description": "Manta suave y abrigadora con diseño kawaii.",
         "image": "imagenes/kawaii/IMG_20230911_162817_941.jpg",
@@ -11,7 +11,7 @@
     {
         "id": 4,
         "name": "joyero kawaii",
-        "price": 15000,
+        "price": 25000,
         "category": "kawaii",
         "description": "pequeño joyero con diseño kawaii en porcelana.",
         "image": "imagenes/kawaii/2023112022511944.jpg",
@@ -20,7 +20,7 @@
     {
         "id": 5,
         "name": "lampara kawaii",
-        "price": 15000,
+        "price": 45000,
         "category": "kawaii",
         "description": "pequeña lampara kawaii.",
         "image": "imagenes/kawaii/2023112311591288.jpg",
@@ -29,7 +29,7 @@
     {
         "id": 6,
         "name": "diario kawaii",
-        "price": 15000,
+        "price": 38000,
         "category": "kawaii",
         "description": "diario en varios motivos kawaii.",
         "image": "imagenes/kawaii/IMG_20230808_092746_221.jpg",
@@ -38,7 +38,7 @@
     {
         "id": 7,
         "name": "morral astronauta",
-        "price": 15000,
+        "price":75000,
         "category": "kawaii",
         "description": "morral escolar con diseño de astronauta.",
         "image": "imagenes/kawaii/2023121323084308.jpg",
@@ -47,7 +47,7 @@
     {
         "id": 8,
         "name": "cuaderno kawaii",
-        "price": 15000,
+        "price": 20000,
         "category": "kawaii",
         "description": "cuaderno con diseño de astronauta.",
         "image": "imagenes/kawaii/IMG_20230807_160607_088.jpg",
@@ -56,7 +56,7 @@
     {
         "id": 9,
         "name": "portacarnet",
-        "price": 15000,
+        "price": 20000,
         "category": "kawaii",
         "description": "porta carnet kawaii con correa ajustable",
         "image": "imagenes/kawaii/IMG_20230903_151606_569.jpg",

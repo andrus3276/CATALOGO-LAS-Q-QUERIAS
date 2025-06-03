@@ -62,7 +62,7 @@
     {
         "id": 28,
         "name": "Lampara cubo aurora",
-        "price": 25000,
+        "price": 85000,
         "category": "lamparas",
         "description": "lampara cubo aurora boreal",        
         "image": "imagenes/lamparas/lamparacuboaurora.jpg",               
@@ -71,7 +71,7 @@
     {
         "id": 29,
         "name": "Lampara esfera cristal",
-        "price": 25000,
+        "price": 50000,
         "category": "lamparas",
         "description": "lampara esfera cristal diferentes motivos sodiacal no recargable con cable  ",        
         "image": "imagenes/lamparas/lamparaesferacristal.jpg",               
@@ -81,17 +81,18 @@
     {
         "id": 30,
         "name": "Lampara proyector",
-        "price": 25000,
+        "price": 62000,
         "category": "lamparas",
         "description": "lampara mesa proyector multicolores con control de luminosidad  ",        
         "image": "imagenes/lamparas/lamparaledcolores.jpg",               
         "images": ["imagenes/lamparas/IMG-20250411-WA0024.jpg " ]
+        
     },
 
     {
         "id": 31,
         "name": "Lampara pared",
-        "price": 25000,
+        "price": 95000,
         "category": "lamparas",
         "description": "lampara led de pared con control 3 tonos cable recargable",        
         "image": "imagenes/lamparas/lamparaparedcontrol.jpg",               
