@@ -51,9 +51,8 @@ a:hover {
     transition: transform 0.3s ease;
     overflow: hidden;
     height: 100%; /* Asegura que todas las tarjetas tengan la misma altura */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+   
+    
     
 }
 #tamaño-descripcion{
@@ -74,7 +73,7 @@ a:hover {
 
 /* Estilo para las imágenes de las tarjetas */
 .card-img-top {
-    height: 400px; /* Altura fija para las imágenes */
+    height: 200px; /* Altura fija para las imágenes */
     object-fit: cover; /* Recorta la imagen para que encaje sin deformarse */
     width: 100%; /* Asegura que la imagen ocupe todo el ancho de la tarjeta */
 }
@@ -84,12 +83,12 @@ a:hover {
     flex-grow: 1; /* Permite que el contenido del cuerpo se ajuste dinámicamente */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
 }
 
 #cart-items p {
     display: flex;
-    justify-content: space-between;
+    
     
 }
 
@@ -220,7 +219,7 @@ footer {
         gap: 1rem;
     }
     .card {
-        width: 100% !important;
+        width: 200% !important;
         margin: 0 !important;
     }
 }
@@ -231,6 +230,28 @@ footer {
         display: grid !important;
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+}
+
+/* Limita la altura de las cards y de las imágenes en móviles */
+@media (max-width: 600px) {
+    .card {
+        max-height: 350px;
+        min-height: 250px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-img-top,
+    .card img {
+        max-height: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+    .card-body {
+        font-size: 0.95rem;
+        padding: 0.5rem;
+        overflow-y: auto;
     }
 }
 
