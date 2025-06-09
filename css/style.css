@@ -83,7 +83,7 @@ a:hover {
 
 /* Estilo para el cuerpo de las tarjetas */
 .card-body {
-    flex-grow: 1; /* Permite que el contenido del cuerpo se ajuste dinámicamente */
+     /* Permite que el contenido del cuerpo se ajuste dinámicamente */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
