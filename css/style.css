@@ -200,9 +200,37 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
+    width: 100%;
+    justify-content: center;
 }
 .category-btn {
     font-size: 1rem;
     padding: 0.3rem 1rem;
+    flex: 1 1 120px;
+    min-width: 120px;
+    margin-bottom: 5px;
+    white-space: normal;
+}
+
+/* Mostrar dos cards por fila en móviles y tablets */
+@media (min-width: 360px) and (max-width: 1024px) {
+    #product-list {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .card {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+}
+
+/* Opcional: una sola card por fila en pantallas muy pequeñas */
+@media (max-width: 359px) {
+    #product-list {
+        display: grid !important;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
 }
 
