@@ -223,7 +223,7 @@ footer {
         gap: 1rem;
     }
     .card {
-        width: 150% !important;
+        width: 130% !important;
         margin: 0 !important;
     }
 }
