@@ -237,25 +237,25 @@ footer {
     }
 }
 
-/* Limita la altura de las cards y de las imágenes en móviles */
+/* Limita la altura de las cards y de las imágenes en móviles, pero sin scroll en la descripción */
 @media (max-width: 600px) {
     .card {
-        max-height: 350px;
-        min-height: 250px;
+        max-height: none;
+        min-height: 200px;
         height: auto;
         display: flex;
         flex-direction: column;
     }
     .card-img-top,
     .card img {
-        max-height: 150px;
-        height: 150px;
+        max-height: 120px;
+        height: 120px;
         object-fit: cover;
     }
     .card-body {
         font-size: 0.95rem;
         padding: 0.5rem;
-        overflow-y: auto;
+        overflow-y: visible; /* Quita el scroll */
     }
 }
 
