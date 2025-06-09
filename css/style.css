@@ -221,10 +221,21 @@ footer {
         display: grid !important;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
+        align-items: stretch; /* Hace que todas las cards tengan la misma altura */
     }
     .card {
-        width: 110% !important;
+        height: 100% !important;
         margin: 0 !important;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-body {
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-height: 120px; /* Ajusta según tu contenido */
+        overflow: hidden;
     }
 }
 
@@ -240,22 +251,24 @@ footer {
 /* Limita la altura de las cards y de las imágenes en móviles, pero sin scroll en la descripción */
 @media (max-width: 600px) {
     .card {
-        max-height: none;
+        max-height: 250px;
         min-height: 200px;
-        height: auto;
+        height: 100%;
         display: flex;
         flex-direction: column;
     }
     .card-img-top,
     .card img {
-        max-height: 120px;
-        height: 120px;
+        max-height: 100px;
+        height: 100px;
         object-fit: cover;
     }
     .card-body {
         font-size: 0.95rem;
         padding: 0.5rem;
-        overflow-y: visible; /* Quita el scroll */
+        flex: 1 1 auto;
+        max-height: 120px; /* Ajusta según tu contenido */
+        overflow: hidden;
     }
 }
 
