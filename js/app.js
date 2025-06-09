@@ -1,7 +1,7 @@
 // app.js - Lógica del carrito
 
 const productList = document.getElementById("product-list");
-const categoryMenu = document.getElementById("category-menu");
+const categoryMenu = document.getElementById("category-buttons");
 const cartBtn = document.getElementById("cart-btn");
 const cartCount = document.getElementById("cart-count");
 const cartItems = document.getElementById("cart-items");
@@ -25,11 +25,14 @@ async function loadCategories() {
         const categories = [...new Set(products.map(product => product.category))].sort();
         console.log("Categorías detectadas:", categories);
 
-        let categoryHtml = `<li><a class="dropdown-item" href="#" onclick="filterProducts('todos')">Todos los Productos</a></li>`;
+        let categoryHtml = `<li><a class="nav-item" href="#" onclick="filterProducts('todos')">Todos los Productos</a></li>`;
         categories.forEach(category => {
+            console.log("Categoría:", category);
             categoryHtml += `<li><a class="dropdown-item" href="#" onclick="filterProducts('${category}')">${capitalize(category)}</a></li>`;
         });
-        document.getElementById("category-menu").innerHTML = categoryHtml;
+        document.getElementById("category-buttons").innerHTML = categoryHtml;
+
+        renderCategoryButtons(categories); // Nueva línea para renderizar los botones de categoría
 
         loadSpecialDates();
     } catch (error) {
@@ -302,6 +305,28 @@ document.getElementById('search-btn').addEventListener('click', function () {
         lastSearchTerm = ""; // Limpia el último término de búsqueda
     }
 });
+
+// Función para renderizar los botones de categoría
+function renderCategoryButtons(categories) {
+    const container = document.getElementById('category-buttons');
+    container.innerHTML = '';
+
+    // Botón para "Todos los Productos"
+    const allBtn = document.createElement('button');
+    allBtn.className = 'btn btn-outline-primary mx-1 my-1 category-btn';
+    allBtn.textContent = 'Todos los Productos';
+    allBtn.onclick = () => filterProducts('todos');
+    container.appendChild(allBtn);
+
+    // Botones para cada categoría
+    categories.forEach(cat => {
+        const btn = document.createElement('button');
+        btn.className = 'btn btn-outline-primary mx-1 my-1 category-btn';
+        btn.textContent = capitalize(cat);
+        btn.onclick = () => filterProducts(cat);
+        container.appendChild(btn);
+    });
+}
 
 // Inicializar la página
 loadProducts();
