@@ -76,7 +76,7 @@ a:hover {
 
 /* Estilo para las imágenes de las tarjetas */
 .card-img-top {
-    height: 100px; /* Altura fija para las imágenes */
+    height: 250px; /* Altura fija para las imágenes */
     object-fit: cover; /* Recorta la imagen para que encaje sin deformarse */
     width: 100%; /* Asegura que la imagen ocupe todo el ancho de la tarjeta */
 }
