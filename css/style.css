@@ -231,7 +231,7 @@ footer {
     }
     .card-img-top,
     .card img {
-        max-height: 150px;
+        max-height: 100px;
         height: 120px;
         object-fit: cover;
     }
@@ -250,7 +250,7 @@ footer {
 
 
 /* Limita la altura de las cards y de las imágenes en móviles, pero sin scroll en la descripción */
-@media (max-width: 360px) {
+@media (max-width: 700px) {
     .card {
         max-height: none;
         min-height: 180px;
