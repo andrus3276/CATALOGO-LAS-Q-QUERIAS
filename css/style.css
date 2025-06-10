@@ -224,7 +224,7 @@ footer {
         align-items: center;
     }
     .card {
-        height: 70% !important;
+        height: 100% !important;
         margin: 0 !important;
         display: flex;
         flex-direction: column;
@@ -260,7 +260,7 @@ footer {
     }
     .card-img-top,
     .card img {
-        max-height: 150px;
+        max-height: 90px;
         height: 120px;
         object-fit: cover;
     }
