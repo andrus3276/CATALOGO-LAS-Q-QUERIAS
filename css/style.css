@@ -282,13 +282,15 @@ footer {
     .card {
         display: flex;
         flex-direction: column;
-        height: 230px !important; /* Altura pareja para todas */
+        /* Quita la altura fija para que el contenido no se corte */
+        height: auto !important;
+        min-height: 180px;
         margin: 0 !important;
     }
     .card-img-top,
     .card img {
-        height: 90px !important;   /* Imagen más pequeña */
-        max-height: 90px !important;
+        height: 80px !important;   /* Imagen más pequeña */
+        max-height: 80px !important;
         object-fit: cover;
     }
     .card-body {
