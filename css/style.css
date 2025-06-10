@@ -216,22 +216,22 @@ footer {
 }
 
 /* Mostrar dos cards por fila en móviles y tablets */
-@media (min-width: 700px) and (max-width: 720px) {
+@media  (min-width: 720px) {
     #product-list {
         display: grid !important;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
-        align-items: stretch;
+        align-items: center;
     }
     .card {
-        height: 100% !important;
+        height: 70% !important;
         margin: 0 !important;
         display: flex;
         flex-direction: column;
     }
     .card-img-top,
     .card img {
-        max-height: 90px;
+        max-height: 150px;
         height: 120px;
         object-fit: cover;
     }
@@ -247,17 +247,10 @@ footer {
     }
 }
 
-/* Opcional: una sola card por fila en pantallas muy pequeñas */
-@media (max-width: 360px) {
-    #product-list {
-        display: grid !important;
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-}
+
 
 /* Limita la altura de las cards y de las imágenes en móviles, pero sin scroll en la descripción */
-@media (max-width: 720px) {
+@media (max-width: 360px) {
     .card {
         max-height: none;
         min-height: 180px;
@@ -267,7 +260,7 @@ footer {
     }
     .card-img-top,
     .card img {
-        max-height: 90px;
+        max-height: 150px;
         height: 120px;
         object-fit: cover;
     }
