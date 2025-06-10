@@ -216,7 +216,7 @@ footer {
 }
 
 /* Mostrar dos cards por fila en móviles y tablets */
-@media (min-width: 1600px) and (max-width: 720px) {
+@media (min-width: 700px) and (max-width: 720px) {
     #product-list {
         display: grid !important;
         grid-template-columns: repeat(2, 1fr);
@@ -257,7 +257,7 @@ footer {
 }
 
 /* Limita la altura de las cards y de las imágenes en móviles, pero sin scroll en la descripción */
-@media (max-width: 360px) {
+@media (max-width: 720px) {
     .card {
         max-height: none;
         min-height: 180px;
