@@ -215,7 +215,7 @@ footer {
     white-space: normal;
 }
 
-/* Mostrar dos cards por fila en móviles y tablets */
+/* Mostrar dos cards por fila en móviles y tablets 
 @media (min-width: 360px) and (max-width: 700px) {
     #product-list {
         display: grid !important;
@@ -241,15 +241,13 @@ footer {
         flex-direction: column;
         justify-content: space-between;
         padding: 0.5rem;
-        /* Elimina el max-height y overflow para que el botón siempre sea visible */
+        /* Elimina el max-height y overflow para que el botón siempre sea visible 
         max-height: none;
         overflow: visible;
     }
 }
 
-
-
-/* Limita la altura de las cards y de las imágenes en móviles, pero sin scroll en la descripción */
+/* Limita la altura de las cards y de las imágenes en móviles, pero sin scroll en la descripción 
 @media (max-width: 700px) {
     .card {
         max-height: none;
@@ -268,6 +266,38 @@ footer {
         font-size: 0.95rem;
         padding: 0.5rem;
         flex: 1 1 auto;
+        max-height: none;
+        overflow: visible;
+    }
+}*/
+
+/* Responsive: dos cards por fila y altura pareja en móviles hasta 720px */
+@media (max-width: 700px) {
+    #product-list {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        align-items: stretch;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        height: 230px !important; /* Altura pareja para todas */
+        margin: 0 !important;
+    }
+    .card-img-top,
+    .card img {
+        height: 90px !important;   /* Imagen más pequeña */
+        max-height: 90px !important;
+        object-fit: cover;
+    }
+    .card-body {
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0.5rem;
+        font-size: 0.95rem;
         max-height: none;
         overflow: visible;
     }
