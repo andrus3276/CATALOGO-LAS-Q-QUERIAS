@@ -248,7 +248,7 @@ footer {
 }
 
 /* Opcional: una sola card por fila en pantallas muy pequeñas */
-@media (max-width: 700px) {
+@media (max-width: 360px) {
     #product-list {
         display: grid !important;
         grid-template-columns: 1fr;
