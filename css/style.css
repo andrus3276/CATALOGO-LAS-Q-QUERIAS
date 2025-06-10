@@ -272,7 +272,7 @@ footer {
 }*/
 
 /* Responsive: dos cards por fila y altura pareja en móviles hasta 720px */
-@media (max-width: 700px) {
+@media (max-width: 720px) {
     #product-list {
         display: grid !important;
         grid-template-columns: repeat(2, 1fr);
@@ -282,15 +282,14 @@ footer {
     .card {
         display: flex;
         flex-direction: column;
-        /* Quita la altura fija para que el contenido no se corte */
-        height: auto !important;
-        min-height: 180px;
+        height: 100% !important;
+        min-height: 220px;
         margin: 0 !important;
     }
     .card-img-top,
     .card img {
-        height: 80px !important;   /* Imagen más pequeña */
-        max-height: 80px !important;
+        height: 90px !important;
+        max-height: 90px !important;
         object-fit: cover;
     }
     .card-body {
