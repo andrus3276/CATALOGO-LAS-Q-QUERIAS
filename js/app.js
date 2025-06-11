@@ -138,11 +138,11 @@ function renderProducts(products) {
 
         html += `
     <div class="col-md-3 mb-4">
-        <div class="card shadow-lg">
+        <div class="card shadow-sm">
             <img src="${product.image.trim()}" class="card-img-top" alt="${product.name}" loading="lazy" onclick="openImageModal('${product.image.trim()}')">
             ${thumbnails}
             <div class="card-body text-center">
-                <h5 class="card-title product-name">${product.name}</h5>
+                <h6 class="card-title product-name">${product.name}</h6>
                 <p class="card-text descripcion">${product.description}</p>
                 <p class="card-text fw-bold">Categoría: ${product.category}</p>
                 <p class="card-text fw-bold">$${product.price.toLocaleString()}</p>

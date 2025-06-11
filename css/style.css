@@ -299,15 +299,15 @@ footer {
         justify-content: space-between;
         padding: 0.5rem;
         font-size: 0.95rem;
-        max-height: none;
+        max-width: 100px;
         overflow: visible;
     }
 }
 
 .descripcion {
     display: -webkit-box;
-    -webkit-line-clamp: 4; /* Máximo 3 líneas */
-    line-clamp: 4; /* Standard property for compatibility */
+    -webkit-line-clamp: 3; /* Máximo 3 líneas */
+    line-clamp: 3; /* Standard property for compatibility */
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
