@@ -137,21 +137,21 @@ function renderProducts(products) {
             : `<button class="btn btn-success" onclick="addToCart(${product.id}, '${product.name}', ${product.price})">Agregar al carrito</button>`;
 
         html += `
-            <div class="col-md-3 mb-4">
-                <div class="card shadow-lg">
-                    <img src="${product.image.trim()}" class="card-img-top" alt="${product.name}" loading="lazy" onclick="openImageModal('${product.image.trim()}')">
-                    ${thumbnails}
-                    <div class="card-body text-center">
-                        <h5 class="card-title product-name">${product.name}</h5>
-                        <p class="card-text">${product.description}</p>
-                        <p class="card-text fw-bold">Categoría: ${product.category}</p>
-                        <p class="card-text fw-bold">$${product.price.toLocaleString()}</p>
-                        ${stockMessage}
-                        ${addToCartButton}
-                    </div>
-                </div>
+    <div class="col-md-3 mb-4">
+        <div class="card shadow-lg">
+            <img src="${product.image.trim()}" class="card-img-top" alt="${product.name}" loading="lazy" onclick="openImageModal('${product.image.trim()}')">
+            ${thumbnails}
+            <div class="card-body text-center">
+                <h5 class="card-title product-name">${product.name}</h5>
+                <p class="card-text descripcion">${product.description}</p>
+                <p class="card-text fw-bold">Categoría: ${product.category}</p>
+                <p class="card-text fw-bold">$${product.price.toLocaleString()}</p>
+                ${stockMessage}
+                ${addToCartButton}
             </div>
-        `;
+        </div>
+    </div>
+`;
     });
 
     productList.innerHTML = html;

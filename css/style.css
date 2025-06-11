@@ -276,7 +276,7 @@ footer {
     #product-list {
         display: grid !important;
         grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
+        gap: 0.5rem;
         align-items: stretch;
     }
     .card {
@@ -302,5 +302,15 @@ footer {
         max-height: none;
         overflow: visible;
     }
+}
+
+.descripcion {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Máximo 3 líneas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 48px;
+    max-height: 60px;
 }
 
